@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "atmosphere:blocks/sky_grass_block",
+    "top": "atmosphere:blocks/sky_grass_top",
+    "side": "atmosphere:blocks/sky_grass_block",
+    "overlay": "atmosphere:blocks/sky_grass_block",
+    "particle": "atmosphere:blocks/sky_grass_block"
+  },
+  "render_type": "solid"
+}

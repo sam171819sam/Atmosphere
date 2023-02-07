@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "SkyGrassBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sky_grass_block"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.atmosphere.sky_grass_block": "Sky Grass Block"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

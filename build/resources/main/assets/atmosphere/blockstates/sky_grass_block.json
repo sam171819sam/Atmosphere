@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "atmosphere:block/sky_grass_block"
+    }
+  }
+}
