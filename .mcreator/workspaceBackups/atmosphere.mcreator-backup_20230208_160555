@@ -1,0 +1,125 @@
+{
+  "mod_elements": [
+    {
+      "name": "LuminumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_ingot"
+    },
+    {
+      "name": "Atmuspehere",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmuspehere"
+    },
+    {
+      "name": "RawLuminumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_luminum_block"
+    },
+    {
+      "name": "LuminumBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_block"
+    },
+    {
+      "name": "RawLuminum",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_luminum"
+    },
+    {
+      "name": "RLB",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rlb"
+    },
+    {
+      "name": "RL",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rl"
+    },
+    {
+      "name": "LI",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li"
+    },
+    {
+      "name": "LIngot",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_ingot"
+    },
+    {
+      "name": "LB",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lb"
+    },
+    {
+      "name": "LBlock",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_block"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.atmosphere.luminum_ingot": "Luminum Ingot",
+      "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+      "item.atmosphere.raw_luminum": "Raw Luminum",
+      "itemGroup.tabatmuspehere": "Atmuspehere",
+      "block.atmosphere.luminum_block": "Luminum Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "atmosphere",
+    "modName": "Atmosphere",
+    "version": "1.0.0",
+    "author": "43660, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.atmosphere",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

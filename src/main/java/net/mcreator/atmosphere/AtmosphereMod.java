@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.atmosphere.init.AtmosphereModTabs;
+import net.mcreator.atmosphere.init.AtmosphereModSounds;
 import net.mcreator.atmosphere.init.AtmosphereModItems;
+import net.mcreator.atmosphere.init.AtmosphereModEntities;
 import net.mcreator.atmosphere.init.AtmosphereModBlocks;
 
 import java.util.function.Supplier;
@@ -49,9 +51,10 @@ public class AtmosphereMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		AtmosphereModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AtmosphereModSounds.REGISTRY.register(bus);
 		AtmosphereModBlocks.REGISTRY.register(bus);
 		AtmosphereModItems.REGISTRY.register(bus);
+		AtmosphereModEntities.REGISTRY.register(bus);
 
 	}
 
