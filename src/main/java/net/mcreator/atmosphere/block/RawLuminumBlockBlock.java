@@ -1,6 +1,8 @@
 
 package net.mcreator.atmosphere.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -14,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class SkyGrassBlockBlock extends Block {
-	public SkyGrassBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.GRAVEL).strength(1f, 10f));
+public class RawLuminumBlockBlock extends Block {
+	public RawLuminumBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GILDED_BLACKSTONE).strength(4f, 10f).lightLevel(s -> 8));
 	}
 
 	@Override

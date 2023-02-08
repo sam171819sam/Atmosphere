@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.atmosphere.init.AtmosphereModTabs;
 import net.mcreator.atmosphere.init.AtmosphereModItems;
 import net.mcreator.atmosphere.init.AtmosphereModBlocks;
 
@@ -46,7 +47,7 @@ public class AtmosphereMod {
 
 	public AtmosphereMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AtmosphereModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AtmosphereModBlocks.REGISTRY.register(bus);

@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.atmosphere.block.SkyGrassBlockBlock;
+import net.mcreator.atmosphere.block.RawLuminumBlockBlock;
+import net.mcreator.atmosphere.block.LuminumBlockBlock;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AtmosphereMod.MODID);
-	public static final RegistryObject<Block> SKY_GRASS_BLOCK = REGISTRY.register("sky_grass_block", () -> new SkyGrassBlockBlock());
+	public static final RegistryObject<Block> RAW_LUMINUM_BLOCK = REGISTRY.register("raw_luminum_block", () -> new RawLuminumBlockBlock());
+	public static final RegistryObject<Block> LUMINUM_BLOCK = REGISTRY.register("luminum_block", () -> new LuminumBlockBlock());
 }

@@ -1,3 +1,6 @@
 {
-  "block.atmosphere.sky_grass_block": "Sky Grass Block"
+  "item.atmosphere.luminum_ingot": "Luminum Ingot",
+  "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+  "itemGroup.tabatmuspehere": "Atmuspehere",
+  "block.atmosphere.luminum_block": "Luminum Block"
 }

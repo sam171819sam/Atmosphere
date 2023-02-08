@@ -1,19 +1,46 @@
 {
   "mod_elements": [
     {
-      "name": "SkyGrassBlock",
-      "type": "block",
-      "sortid": 1,
+      "name": "LuminumIngot",
+      "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sky_grass_block"
+      "registry_name": "luminum_ingot"
+    },
+    {
+      "name": "Atmuspehere",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmuspehere"
+    },
+    {
+      "name": "RawLuminumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_luminum_block"
+    },
+    {
+      "name": "LuminumBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.atmosphere.sky_grass_block": "Sky Grass Block"
+      "item.atmosphere.luminum_ingot": "Luminum Ingot",
+      "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+      "itemGroup.tabatmuspehere": "Atmuspehere",
+      "block.atmosphere.luminum_block": "Luminum Block"
     }
   },
   "foldersRoot": {

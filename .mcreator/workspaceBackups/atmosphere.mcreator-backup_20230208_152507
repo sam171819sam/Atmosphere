@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "LuminumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_ingot"
+    },
+    {
+      "name": "Atmuspehere",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmuspehere"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.atmosphere.luminum_ingot": "Luminum Ingot",
+      "itemGroup.tabatmuspehere": "Atmuspehere"
+    }
   },
   "foldersRoot": {
     "name": "~",

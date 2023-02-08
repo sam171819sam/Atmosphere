@@ -1,5 +1,5 @@
 {
-  "parent": "atmosphere:block/sky_grass_block",
+  "parent": "atmosphere:block/luminum_block",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:raw_luminum_block",
+    "atmosphere:luminum_block"
+  ]
+}
