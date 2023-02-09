@@ -16,7 +16,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
-import net.mcreator.atmosphere.item.AmethystPowderItem;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModItems {
@@ -25,21 +24,12 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> RAW_LUMINUM_BLOCK = block(AtmosphereModBlocks.RAW_LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMUSPEHERE);
 	public static final RegistryObject<Item> LUMINUM_BLOCK = block(AtmosphereModBlocks.LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMUSPEHERE);
 	public static final RegistryObject<Item> RAW_LUMINUM = REGISTRY.register("raw_luminum", () -> new RawLuminumItem());
-	public static final RegistryObject<Item> SAINT = REGISTRY.register("saint_spawn_egg",
-			() -> new ForgeSpawnEggItem(AtmosphereModEntities.SAINT, -592138, -8082, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMUSPEHERE)));
 	public static final RegistryObject<Item> TUB = block(AtmosphereModBlocks.TUB, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WITCH_POOL = block(AtmosphereModBlocks.WITCH_POOL, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WITCH_CRUSHING_STONE = block(AtmosphereModBlocks.WITCH_CRUSHING_STONE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> AMETHYST_POWDER = REGISTRY.register("amethyst_powder", () -> new AmethystPowderItem());
-	public static final RegistryObject<Item> SHATTER_STONE = block(AtmosphereModBlocks.SHATTER_STONE, AtmosphereModTabs.TAB_ATMUSPEHERE);
-	public static final RegistryObject<Item> COBBLED_SHATTER_STONE = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE,
-			AtmosphereModTabs.TAB_ATMUSPEHERE);
-	public static final RegistryObject<Item> COBBLED_SHATTER_STONE_STAIRS = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE_STAIRS,
-			AtmosphereModTabs.TAB_ATMUSPEHERE);
-	public static final RegistryObject<Item> COBBLED_SHATTER_STONE_SLAB = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE_SLAB,
-			AtmosphereModTabs.TAB_ATMUSPEHERE);
-	public static final RegistryObject<Item> COBBLED_SHATTER_STONE_WALL = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE_WALL,
-			AtmosphereModTabs.TAB_ATMUSPEHERE);
+	public static final RegistryObject<Item> BALLOON_FLY = REGISTRY.register("balloon_fly_spawn_egg",
+			() -> new ForgeSpawnEggItem(AtmosphereModEntities.BALLOON_FLY, -14396080, -14291271,
+					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMUSPEHERE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

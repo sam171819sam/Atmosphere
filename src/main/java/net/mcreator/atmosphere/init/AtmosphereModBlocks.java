@@ -13,13 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.atmosphere.block.WitchPoolBlock;
 import net.mcreator.atmosphere.block.WitchCrushingStoneBlock;
 import net.mcreator.atmosphere.block.TubBlock;
-import net.mcreator.atmosphere.block.ShatterStoneBlock;
 import net.mcreator.atmosphere.block.RawLuminumBlockBlock;
 import net.mcreator.atmosphere.block.LuminumBlockBlock;
-import net.mcreator.atmosphere.block.CobbledShatterStoneWallBlock;
-import net.mcreator.atmosphere.block.CobbledShatterStoneStairsBlock;
-import net.mcreator.atmosphere.block.CobbledShatterStoneSlabBlock;
-import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModBlocks {
@@ -29,13 +24,4 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> TUB = REGISTRY.register("tub", () -> new TubBlock());
 	public static final RegistryObject<Block> WITCH_POOL = REGISTRY.register("witch_pool", () -> new WitchPoolBlock());
 	public static final RegistryObject<Block> WITCH_CRUSHING_STONE = REGISTRY.register("witch_crushing_stone", () -> new WitchCrushingStoneBlock());
-	public static final RegistryObject<Block> SHATTER_STONE = REGISTRY.register("shatter_stone", () -> new ShatterStoneBlock());
-	public static final RegistryObject<Block> COBBLED_SHATTER_STONE = REGISTRY.register("cobbled_shatter_stone",
-			() -> new CobbledShatterStoneBlock());
-	public static final RegistryObject<Block> COBBLED_SHATTER_STONE_STAIRS = REGISTRY.register("cobbled_shatter_stone_stairs",
-			() -> new CobbledShatterStoneStairsBlock());
-	public static final RegistryObject<Block> COBBLED_SHATTER_STONE_SLAB = REGISTRY.register("cobbled_shatter_stone_slab",
-			() -> new CobbledShatterStoneSlabBlock());
-	public static final RegistryObject<Block> COBBLED_SHATTER_STONE_WALL = REGISTRY.register("cobbled_shatter_stone_wall",
-			() -> new CobbledShatterStoneWallBlock());
 }
