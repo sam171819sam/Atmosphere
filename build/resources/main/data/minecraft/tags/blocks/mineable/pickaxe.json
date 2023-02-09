@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "atmosphere:raw_luminum_block",
-    "atmosphere:luminum_block"
+    "atmosphere:luminum_block",
+    "atmosphere:tub",
+    "atmosphere:witch_pool",
+    "atmosphere:witch_crushing_stone"
   ]
 }
