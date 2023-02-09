@@ -34,7 +34,7 @@ import net.mcreator.atmosphere.init.AtmosphereModEntities;
 
 public class SiantEntity extends Monster {
 	public SiantEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AtmosphereModEntities.SIANT.get(), world);
+		this(AtmosphereModEntities.SAINT.get(), world);
 	}
 
 	public SiantEntity(EntityType<SiantEntity> type, Level world) {
@@ -100,7 +100,7 @@ public class SiantEntity extends Monster {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AtmosphereModEntities.SIANT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(AtmosphereModEntities.SAINT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
 						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}

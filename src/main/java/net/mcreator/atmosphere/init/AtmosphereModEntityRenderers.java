@@ -15,6 +15,6 @@ import net.mcreator.atmosphere.client.renderer.SiantRenderer;
 public class AtmosphereModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(AtmosphereModEntities.SIANT.get(), SiantRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.SAINT.get(), SiantRenderer::new);
 	}
 }

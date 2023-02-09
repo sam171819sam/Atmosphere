@@ -1,15 +1,21 @@
 {
   "advancements.abrakadabra.descr": "Place a witch pool.",
+  "entity.atmosphere.saint": "Saint",
   "subtitles.death_whistle": "Death",
-  "item.atmosphere.siant_spawn_egg": "Siant Spawn Egg",
+  "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
+  "block.atmosphere.cobbled_shatter_stone_slab": "Cobbled Shatter Stone Slab",
   "item.atmosphere.raw_luminum": "Raw Luminum",
   "block.atmosphere.witch_pool": "Witch Pool",
   "block.atmosphere.luminum_block": "Luminum Block",
+  "block.atmosphere.cobbled_shatter_stone_stairs": "Cobbled Shatter Stone Stairs",
+  "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
+  "block.atmosphere.shatter_stone": "Shatter Stone",
   "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
   "item.atmosphere.luminum_ingot": "Luminum Ingot",
   "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
-  "entity.atmosphere.siant": "Siant",
   "advancements.abrakadabra.title": "Abrakadabra",
   "block.atmosphere.tub": "Tub",
-  "itemGroup.tabatmuspehere": "Atmuspehere"
+  "itemGroup.tabatmuspehere": "Atmuspehere",
+  "block.atmosphere.cobbled_shatter_stone_wall": "Cobbled Shatter Stone Wall",
+  "item.atmosphere.amethyst_powder": "Amethyst Powder"
 }

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "1": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "2": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "3": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "5": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "6": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "7": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    },
+    "8": {
+      "item": "atmosphere:cobbled_shatter_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

@@ -22,7 +22,7 @@ import net.mcreator.atmosphere.AtmosphereMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AtmosphereModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AtmosphereMod.MODID);
-	public static final RegistryObject<EntityType<SiantEntity>> SIANT = register("siant",
+	public static final RegistryObject<EntityType<SiantEntity>> SAINT = register("saint",
 			EntityType.Builder.<SiantEntity>of(SiantEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(90)
 					.setUpdateInterval(3).setCustomClientFactory(SiantEntity::new)
 
@@ -41,6 +41,6 @@ public class AtmosphereModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(SIANT.get(), SiantEntity.createAttributes().build());
+		event.put(SAINT.get(), SiantEntity.createAttributes().build());
 	}
 }

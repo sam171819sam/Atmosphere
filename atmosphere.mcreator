@@ -94,7 +94,7 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siant"
+      "registry_name": "saint"
     },
     {
       "name": "Tub",
@@ -159,6 +159,110 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "witch_crushing_gui"
+    },
+    {
+      "name": "AmethystPowder",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_powder"
+    },
+    {
+      "name": "CrushingProc",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushing_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShatterStone",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_stone"
+    },
+    {
+      "name": "CobbledShatterStone",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone"
+    },
+    {
+      "name": "CobbledShatterStoneStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone_stairs"
+    },
+    {
+      "name": "CobbledShatterStoneSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone_slab"
+    },
+    {
+      "name": "CobbledShatterStoneWall",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone_wall"
+    },
+    {
+      "name": "F",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f"
+    },
+    {
+      "name": "SS",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ss"
+    },
+    {
+      "name": "CSS",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "css"
+    },
+    {
+      "name": "CSSlab",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs_slab"
+    },
+    {
+      "name": "CSSW",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cssw"
     }
   ],
   "variable_elements": [],
@@ -175,18 +279,24 @@
   "language_map": {
     "en_us": {
       "advancements.abrakadabra.descr": "Place a witch pool.",
+      "entity.atmosphere.saint": "Saint",
       "subtitles.death_whistle": "Death",
-      "item.atmosphere.siant_spawn_egg": "Siant Spawn Egg",
+      "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
+      "block.atmosphere.cobbled_shatter_stone_slab": "Cobbled Shatter Stone Slab",
       "item.atmosphere.raw_luminum": "Raw Luminum",
       "block.atmosphere.witch_pool": "Witch Pool",
       "block.atmosphere.luminum_block": "Luminum Block",
+      "block.atmosphere.cobbled_shatter_stone_stairs": "Cobbled Shatter Stone Stairs",
+      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
+      "block.atmosphere.shatter_stone": "Shatter Stone",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
       "item.atmosphere.luminum_ingot": "Luminum Ingot",
       "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
-      "entity.atmosphere.siant": "Siant",
       "advancements.abrakadabra.title": "Abrakadabra",
       "block.atmosphere.tub": "Tub",
-      "itemGroup.tabatmuspehere": "Atmuspehere"
+      "itemGroup.tabatmuspehere": "Atmuspehere",
+      "block.atmosphere.cobbled_shatter_stone_wall": "Cobbled Shatter Stone Wall",
+      "item.atmosphere.amethyst_powder": "Amethyst Powder"
     }
   },
   "foldersRoot": {

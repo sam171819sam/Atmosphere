@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "atmosphere:blocks/cobbled_darkstone",
+    "top": "atmosphere:blocks/cobbled_darkstone",
+    "side": "atmosphere:blocks/cobbled_darkstone"
+  },
+  "render_type": "solid"
+}

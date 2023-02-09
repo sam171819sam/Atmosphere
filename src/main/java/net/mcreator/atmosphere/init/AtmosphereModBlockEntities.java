@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.atmosphere.block.entity.WitchPoolBlockEntity;
+import net.mcreator.atmosphere.block.entity.WitchCrushingStoneBlockEntity;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModBlockEntities {
@@ -19,6 +20,8 @@ public class AtmosphereModBlockEntities {
 			AtmosphereMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> WITCH_POOL = register("witch_pool", AtmosphereModBlocks.WITCH_POOL,
 			WitchPoolBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> WITCH_CRUSHING_STONE = register("witch_crushing_stone",
+			AtmosphereModBlocks.WITCH_CRUSHING_STONE, WitchCrushingStoneBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {
