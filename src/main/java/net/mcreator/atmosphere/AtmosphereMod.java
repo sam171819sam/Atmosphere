@@ -31,9 +31,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.atmosphere.init.AtmosphereModTabs;
 import net.mcreator.atmosphere.init.AtmosphereModSounds;
+import net.mcreator.atmosphere.init.AtmosphereModMenus;
 import net.mcreator.atmosphere.init.AtmosphereModItems;
 import net.mcreator.atmosphere.init.AtmosphereModEntities;
 import net.mcreator.atmosphere.init.AtmosphereModBlocks;
+import net.mcreator.atmosphere.init.AtmosphereModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,6 +57,9 @@ public class AtmosphereMod {
 		AtmosphereModBlocks.REGISTRY.register(bus);
 		AtmosphereModItems.REGISTRY.register(bus);
 		AtmosphereModEntities.REGISTRY.register(bus);
+		AtmosphereModBlockEntities.REGISTRY.register(bus);
+
+		AtmosphereModMenus.REGISTRY.register(bus);
 
 	}
 

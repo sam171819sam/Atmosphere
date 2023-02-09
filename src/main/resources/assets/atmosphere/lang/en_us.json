@@ -1,10 +1,15 @@
 {
-  "item.atmosphere.luminum_ingot": "Luminum Ingot",
+  "advancements.abrakadabra.descr": "Place a witch pool.",
   "subtitles.death_whistle": "Death",
-  "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
-  "entity.atmosphere.siant": "Siant",
   "item.atmosphere.siant_spawn_egg": "Siant Spawn Egg",
   "item.atmosphere.raw_luminum": "Raw Luminum",
-  "itemGroup.tabatmuspehere": "Atmuspehere",
-  "block.atmosphere.luminum_block": "Luminum Block"
+  "block.atmosphere.witch_pool": "Witch Pool",
+  "block.atmosphere.luminum_block": "Luminum Block",
+  "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+  "item.atmosphere.luminum_ingot": "Luminum Ingot",
+  "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+  "entity.atmosphere.siant": "Siant",
+  "advancements.abrakadabra.title": "Abrakadabra",
+  "block.atmosphere.tub": "Tub",
+  "itemGroup.tabatmuspehere": "Atmuspehere"
 }

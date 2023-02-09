@@ -26,6 +26,9 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> RAW_LUMINUM = REGISTRY.register("raw_luminum", () -> new RawLuminumItem());
 	public static final RegistryObject<Item> SIANT = REGISTRY.register("siant_spawn_egg",
 			() -> new ForgeSpawnEggItem(AtmosphereModEntities.SIANT, -592138, -8082, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMUSPEHERE)));
+	public static final RegistryObject<Item> TUB = block(AtmosphereModBlocks.TUB, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> WITCH_POOL = block(AtmosphereModBlocks.WITCH_POOL, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> WITCH_CRUSHING_STONE = block(AtmosphereModBlocks.WITCH_CRUSHING_STONE, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
