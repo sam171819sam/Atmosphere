@@ -263,6 +263,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cssw"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
     }
   ],
   "variable_elements": [],
