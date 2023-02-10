@@ -4,12 +4,12 @@
   "definition": {
     "mobName": "BalloonFly",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Chicken",
     "mobModelTexture": "balloonfly.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 1.0,
-    "modelHeight": 1.0,
-    "modelShadowSize": 1.0,
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "CUSTOM:Atmuspehere"
+      "value": "CUSTOM:Atmosphere"
     },
     "isBoss": false,
     "bossBarColor": "PINK",

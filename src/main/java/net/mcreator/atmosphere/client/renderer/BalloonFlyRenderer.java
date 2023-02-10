@@ -17,7 +17,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class BalloonFlyRenderer extends GeoEntityRenderer<BalloonFlyEntity> {
 	public BalloonFlyRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new BalloonFlyModelProcedure());
-		this.shadowRadius = 1f;
+		this.shadowRadius = 0f;
 	}
 
 	@Override
@@ -25,5 +25,10 @@ public class BalloonFlyRenderer extends GeoEntityRenderer<BalloonFlyEntity> {
 			VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
 		stack.scale(1.0F, 1.0F, 1.0F);
 		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	}
+
+	@Override
+	protected float getDeathMaxRotation(BalloonFlyEntity entityLivingBaseIn) {
+		return 0.0F;
 	}
 }

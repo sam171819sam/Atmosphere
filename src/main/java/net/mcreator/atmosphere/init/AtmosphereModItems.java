@@ -21,15 +21,19 @@ import net.mcreator.atmosphere.AtmosphereMod;
 public class AtmosphereModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AtmosphereMod.MODID);
 	public static final RegistryObject<Item> LUMINUM_INGOT = REGISTRY.register("luminum_ingot", () -> new LuminumIngotItem());
-	public static final RegistryObject<Item> RAW_LUMINUM_BLOCK = block(AtmosphereModBlocks.RAW_LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMUSPEHERE);
-	public static final RegistryObject<Item> LUMINUM_BLOCK = block(AtmosphereModBlocks.LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMUSPEHERE);
+	public static final RegistryObject<Item> RAW_LUMINUM_BLOCK = block(AtmosphereModBlocks.RAW_LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> LUMINUM_BLOCK = block(AtmosphereModBlocks.LUMINUM_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> RAW_LUMINUM = REGISTRY.register("raw_luminum", () -> new RawLuminumItem());
 	public static final RegistryObject<Item> TUB = block(AtmosphereModBlocks.TUB, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WITCH_POOL = block(AtmosphereModBlocks.WITCH_POOL, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WITCH_CRUSHING_STONE = block(AtmosphereModBlocks.WITCH_CRUSHING_STONE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BALLOON_FLY = REGISTRY.register("balloon_fly_spawn_egg",
 			() -> new ForgeSpawnEggItem(AtmosphereModEntities.BALLOON_FLY, -14396080, -14291271,
-					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMUSPEHERE)));
+					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> SAINT = REGISTRY.register("saint_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SAINT,
+			-2368549, -3362747, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> RAYVEN = REGISTRY.register("rayven_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.RAYVEN,
+			-14121614, -6322895, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

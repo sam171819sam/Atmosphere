@@ -90,7 +90,7 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.i
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.d
-key_key.pickItem:key.keyboard.n
+key_key.pickItem:key.keyboard.v
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
@@ -102,10 +102,10 @@ key_key.swapOffhand:key.keyboard.b
 key_key.saveToolbarActivator:key.keyboard.c
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.s
-key_key.hotbar.1:key.keyboard.1
-key_key.hotbar.2:key.keyboard.2
-key_key.hotbar.3:key.keyboard.3
-key_key.hotbar.4:key.keyboard.4
+key_key.hotbar.1:key.keyboard.n
+key_key.hotbar.2:key.keyboard.m
+key_key.hotbar.3:key.keyboard.comma
+key_key.hotbar.4:key.keyboard.enter
 key_key.hotbar.5:key.keyboard.5
 key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
