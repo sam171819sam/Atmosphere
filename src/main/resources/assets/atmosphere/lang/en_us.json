@@ -1,21 +1,20 @@
 {
   "advancements.abrakadabra.descr": "Place a witch pool.",
   "entity.atmosphere.saint": "Saint",
+  "itemGroup.tabatmosphere": "Atmosphere",
   "subtitles.death_whistle": "Death",
   "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
-  "block.atmosphere.cobbled_shatter_stone_slab": "Cobbled Shatter Stone Slab",
+  "entity.atmosphere.balloon_fly": "BalloonFly",
   "item.atmosphere.raw_luminum": "Raw Luminum",
   "block.atmosphere.witch_pool": "Witch Pool",
   "block.atmosphere.luminum_block": "Luminum Block",
-  "block.atmosphere.cobbled_shatter_stone_stairs": "Cobbled Shatter Stone Stairs",
-  "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
-  "block.atmosphere.shatter_stone": "Shatter Stone",
+  "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
   "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+  "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
   "item.atmosphere.luminum_ingot": "Luminum Ingot",
+  "entity.atmosphere.rayven": "Rayven",
   "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
   "advancements.abrakadabra.title": "Abrakadabra",
   "block.atmosphere.tub": "Tub",
-  "itemGroup.tabatmuspehere": "Atmuspehere",
-  "block.atmosphere.cobbled_shatter_stone_wall": "Cobbled Shatter Stone Wall",
-  "item.atmosphere.amethyst_powder": "Amethyst Powder"
+  "itemGroup.tabatmuspehere": "Atmuspehere"
 }

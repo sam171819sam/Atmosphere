@@ -35,6 +35,7 @@
     },
     "done": true
   },
+<<<<<<< HEAD
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-02-09 16:21:38 +0100"
@@ -214,6 +215,25 @@
       "has_sugar_cane": "2023-02-09 16:21:38 +0100"
     },
     "done": true
+=======
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2023-02-09 19:44:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-02-09 19:41:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2023-02-09 19:44:57 +0100"
+    },
+    "done": false
+>>>>>>> stash
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
@@ -517,6 +537,7 @@
     },
     "done": true
   },
+<<<<<<< HEAD
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2023-02-09 17:52:17 +0100"
@@ -536,8 +557,33 @@
     "done": true
   },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+=======
+  "minecraft:recipes/transportation/oak_boat": {
+>>>>>>> stash
     "criteria": {
+<<<<<<< HEAD
       "has_iron_nugget": "2023-02-09 19:00:54 +0100"
+=======
+      "in_water": "2023-02-09 14:55:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2023-02-09 14:56:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2023-02-09 14:56:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2023-02-09 14:14:25 +0100"
+>>>>>>> stash
     },
     "done": true
   },
@@ -553,6 +599,7 @@
     },
     "done": true
   },
+<<<<<<< HEAD
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-02-09 14:56:31 +0100"
@@ -590,12 +637,25 @@
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
+=======
+  "minecraft:recipes/transportation/spruce_boat": {
+>>>>>>> stash
     "criteria": {
       "in_water": "2023-02-09 14:55:14 +0100"
     },
     "done": true
   },
+<<<<<<< HEAD
   "minecraft:recipes/redstone/daylight_detector": {
+=======
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-02-09 14:56:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+>>>>>>> stash
     "criteria": {
       "has_quartz": "2023-02-09 19:00:45 +0100"
     },

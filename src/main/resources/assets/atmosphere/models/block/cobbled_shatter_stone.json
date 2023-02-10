@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "atmosphere:blocks/cobbled_darkstone",
-    "particle": "atmosphere:blocks/cobbled_darkstone"
-  },
-  "render_type": "solid"
-}

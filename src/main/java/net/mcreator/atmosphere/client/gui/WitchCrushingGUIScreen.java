@@ -7,12 +7,9 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.atmosphere.world.inventory.WitchCrushingGUIMenu;
-import net.mcreator.atmosphere.network.WitchCrushingGUIButtonMessage;
-import net.mcreator.atmosphere.AtmosphereMod;
 
 import java.util.HashMap;
 
@@ -88,11 +85,5 @@ public class WitchCrushingGUIScreen extends AbstractContainerScreen<WitchCrushin
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 14, this.topPos + 63, 51, 20, Component.literal("Crush"), e -> {
-			if (true) {
-				AtmosphereMod.PACKET_HANDLER.sendToServer(new WitchCrushingGUIButtonMessage(0, x, y, z));
-				WitchCrushingGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}));
 	}
 }

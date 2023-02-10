@@ -159,20 +159,6 @@
           "x": 125,
           "y": 27
         }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Crush",
-          "onClick": {
-            "name": "CrushingProc"
-          },
-          "width": 51,
-          "height": 20,
-          "name": "Crush",
-          "x": 140,
-          "y": 100
-        }
       }
     ],
     "gridSettings": {

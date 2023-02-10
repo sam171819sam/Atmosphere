@@ -8,6 +8,6 @@ import net.mcreator.atmosphere.init.AtmosphereModTabs;
 
 public class LuminumIngotItem extends Item {
 	public LuminumIngotItem() {
-		super(new Item.Properties().tab(AtmosphereModTabs.TAB_ATMUSPEHERE).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }
