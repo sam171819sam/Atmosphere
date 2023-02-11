@@ -176,7 +176,7 @@
       "name": "BalloonFly",
       "type": "livingentity",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "balloon_fly",
       "path": "~/Entitys"
@@ -205,26 +205,9 @@
       "name": "Rayven",
       "type": "livingentity",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "rayven",
-      "path": "~/Entitys"
-    },
-    {
-      "name": "SaintAnimationSprinting",
-      "type": "procedure",
-      "sortid": 26,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "saint_animation_sprinting",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
       "path": "~/Entitys"
     },
     {
@@ -243,10 +226,50 @@
       "name": "Saint",
       "type": "livingentity",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saint",
       "path": "~/Entitys"
+    },
+    {
+      "name": "ShatterStone",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_stone"
+    },
+    {
+      "name": "CobbledShatterStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone"
+    },
+    {
+      "name": "FireAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_amulet"
+    },
+    {
+      "name": "SoftAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soft_amulet"
+    },
+    {
+      "name": "SecureAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secure_amulet"
     }
   ],
   "variable_elements": [],
@@ -263,6 +286,7 @@
   "language_map": {
     "en_us": {
       "advancements.abrakadabra.descr": "Place a witch pool.",
+      "item.atmosphere.fire_amulet": "Fire Amulet",
       "entity.atmosphere.saint": "Saint",
       "itemGroup.tabatmosphere": "Atmosphere",
       "subtitles.death_whistle": "Death",
@@ -270,9 +294,13 @@
       "entity.atmosphere.balloon_fly": "BalloonFly",
       "item.atmosphere.raw_luminum": "Raw Luminum",
       "block.atmosphere.witch_pool": "Witch Pool",
+      "item.atmosphere.soft_amulet": "Soft Amulet",
       "block.atmosphere.luminum_block": "Luminum Block",
+      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
       "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
+      "block.atmosphere.shatter_stone": "Shatter Stone",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+      "item.atmosphere.secure_amulet": "Secure Amulet",
       "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
       "item.atmosphere.luminum_ingot": "Luminum Ingot",
       "entity.atmosphere.rayven": "Rayven",
@@ -303,8 +331,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.atmosphere",
     "lockBaseModFiles": false
   },
