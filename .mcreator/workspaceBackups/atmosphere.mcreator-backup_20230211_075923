@@ -1,0 +1,330 @@
+{
+  "mod_elements": [
+    {
+      "name": "LuminumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_ingot"
+    },
+    {
+      "name": "RawLuminumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_luminum_block"
+    },
+    {
+      "name": "LuminumBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_block"
+    },
+    {
+      "name": "RawLuminum",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_luminum"
+    },
+    {
+      "name": "RLB",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rlb"
+    },
+    {
+      "name": "RL",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rl"
+    },
+    {
+      "name": "LI",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "li"
+    },
+    {
+      "name": "LIngot",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_ingot"
+    },
+    {
+      "name": "LB",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lb"
+    },
+    {
+      "name": "LBlock",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_block"
+    },
+    {
+      "name": "Tub",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tub"
+    },
+    {
+      "name": "WitchPool",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_pool"
+    },
+    {
+      "name": "T",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t"
+    },
+    {
+      "name": "WP",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wp"
+    },
+    {
+      "name": "Abrakadabra",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abrakadabra"
+    },
+    {
+      "name": "WitchCrushingStone",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_crushing_stone"
+    },
+    {
+      "name": "WitchPoolGUI",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_pool_gui"
+    },
+    {
+      "name": "WitchCrushingGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_crushing_gui"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "SaintModel",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_model",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "BalloonFly",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloon_fly",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "Atmosphere",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmosphere"
+    },
+    {
+      "name": "RayvenModel",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rayven_model",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "Rayven",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rayven",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "SaintAnimationSprinting",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_animation_sprinting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "BalloonFlyModel",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloon_fly_model",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "Saint",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "ShatterStone",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_stone"
+    },
+    {
+      "name": "CobbledShatterStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "death_whistle",
+      "files": [
+        "the_whistle_of_death_-_puss_in_boots_2"
+      ],
+      "category": "hostile",
+      "subtitle": "Death"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.abrakadabra.descr": "Place a witch pool.",
+      "entity.atmosphere.saint": "Saint",
+      "itemGroup.tabatmosphere": "Atmosphere",
+      "subtitles.death_whistle": "Death",
+      "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
+      "entity.atmosphere.balloon_fly": "BalloonFly",
+      "item.atmosphere.raw_luminum": "Raw Luminum",
+      "block.atmosphere.witch_pool": "Witch Pool",
+      "block.atmosphere.luminum_block": "Luminum Block",
+      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
+      "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
+      "block.atmosphere.shatter_stone": "Shatter Stone",
+      "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+      "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
+      "item.atmosphere.luminum_ingot": "Luminum Ingot",
+      "entity.atmosphere.rayven": "Rayven",
+      "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+      "advancements.abrakadabra.title": "Abrakadabra",
+      "block.atmosphere.tub": "Tub",
+      "itemGroup.tabatmuspehere": "Atmuspehere"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Entitys",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "atmosphere",
+    "modName": "Atmosphere",
+    "version": "1.0.0",
+    "author": "43660, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.atmosphere",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

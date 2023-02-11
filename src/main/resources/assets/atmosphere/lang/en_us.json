@@ -1,5 +1,6 @@
 {
   "advancements.abrakadabra.descr": "Place a witch pool.",
+  "item.atmosphere.fire_amulet": "Fire Amulet",
   "entity.atmosphere.saint": "Saint",
   "itemGroup.tabatmosphere": "Atmosphere",
   "subtitles.death_whistle": "Death",
@@ -7,13 +8,18 @@
   "entity.atmosphere.balloon_fly": "BalloonFly",
   "item.atmosphere.raw_luminum": "Raw Luminum",
   "block.atmosphere.witch_pool": "Witch Pool",
+  "item.atmosphere.soft_amulet": "Soft Amulet",
   "block.atmosphere.luminum_block": "Luminum Block",
+  "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
   "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
+  "block.atmosphere.shatter_stone": "Shatter Stone",
   "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+  "item.atmosphere.secure_amulet": "Secure Amulet",
   "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
   "item.atmosphere.luminum_ingot": "Luminum Ingot",
   "entity.atmosphere.rayven": "Rayven",
   "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
   "advancements.abrakadabra.title": "Abrakadabra",
-  "block.atmosphere.tub": "Tub"
+  "block.atmosphere.tub": "Tub",
+  "itemGroup.tabatmuspehere": "Atmuspehere"
 }

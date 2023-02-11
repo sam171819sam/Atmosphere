@@ -5,6 +5,8 @@
     "atmosphere:luminum_block",
     "atmosphere:tub",
     "atmosphere:witch_pool",
-    "atmosphere:witch_crushing_stone"
+    "atmosphere:witch_crushing_stone",
+    "atmosphere:shatter_stone",
+    "atmosphere:cobbled_shatter_stone"
   ]
 }

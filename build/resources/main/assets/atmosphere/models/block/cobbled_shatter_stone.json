@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "atmosphere:blocks/cobbled_darkstone",
+    "down": "atmosphere:blocks/cobbled_darkstone",
+    "up": "atmosphere:blocks/cobbled_darkstone",
+    "north": "atmosphere:blocks/cobbled_darkstone",
+    "east": "atmosphere:blocks/cobbled_darkstone",
+    "south": "atmosphere:blocks/cobbled_darkstone",
+    "west": "atmosphere:blocks/cobbled_darkstone",
     "particle": "atmosphere:blocks/cobbled_darkstone"
   },
   "render_type": "solid"

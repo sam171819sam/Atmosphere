@@ -214,6 +214,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "atmosphere"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "SoftAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soft_amulet"
+    },
+    {
+      "name": "SecureAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secure_amulet"
+    },
+    {
+      "name": "CobbledShatterStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone"
+    },
+    {
+      "name": "ShatterStone",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_stone"
+    },
+    {
+      "name": "FireAmulet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_amulet"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
     }
   ],
   "variable_elements": [],
@@ -230,6 +286,7 @@
   "language_map": {
     "en_us": {
       "advancements.abrakadabra.descr": "Place a witch pool.",
+      "item.atmosphere.fire_amulet": "Fire Amulet",
       "entity.atmosphere.saint": "Saint",
       "itemGroup.tabatmosphere": "Atmosphere",
       "subtitles.death_whistle": "Death",
@@ -237,24 +294,25 @@
       "entity.atmosphere.balloon_fly": "BalloonFly",
       "item.atmosphere.raw_luminum": "Raw Luminum",
       "block.atmosphere.witch_pool": "Witch Pool",
+      "item.atmosphere.soft_amulet": "Soft Amulet",
       "block.atmosphere.luminum_block": "Luminum Block",
+      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
       "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
+      "block.atmosphere.shatter_stone": "Shatter Stone",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+      "item.atmosphere.secure_amulet": "Secure Amulet",
       "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
       "item.atmosphere.luminum_ingot": "Luminum Ingot",
       "entity.atmosphere.rayven": "Rayven",
       "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
       "advancements.abrakadabra.title": "Abrakadabra",
-      "block.atmosphere.tub": "Tub"
+      "block.atmosphere.tub": "Tub",
+      "itemGroup.tabatmuspehere": "Atmuspehere"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Entitys",
-        "children": []
-      },
       {
         "name": "Biomes",
         "children": [
@@ -263,6 +321,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Entitys",
+        "children": []
       }
     ]
   },

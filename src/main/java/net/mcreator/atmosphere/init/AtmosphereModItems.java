@@ -14,8 +14,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.atmosphere.item.SoftAmuletItem;
+import net.mcreator.atmosphere.item.SecureAmuletItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
+import net.mcreator.atmosphere.item.FireAmuletItem;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModItems {
@@ -34,6 +37,12 @@ public class AtmosphereModItems {
 			-2368549, -3362747, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> RAYVEN = REGISTRY.register("rayven_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.RAYVEN,
 			-14121614, -6322895, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> SHATTER_STONE = block(AtmosphereModBlocks.SHATTER_STONE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> COBBLED_SHATTER_STONE = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SOFT_AMULET = REGISTRY.register("soft_amulet", () -> new SoftAmuletItem());
+	public static final RegistryObject<Item> SECURE_AMULET = REGISTRY.register("secure_amulet", () -> new SecureAmuletItem());
+	public static final RegistryObject<Item> FIRE_AMULET = REGISTRY.register("fire_amulet", () -> new FireAmuletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
