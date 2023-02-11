@@ -31,7 +31,9 @@ public class AtmosphereModEntities {
 					.sized(0.4f, 0.7f));
 	public static final RegistryObject<EntityType<SaintEntity>> SAINT = register("saint",
 			EntityType.Builder.<SaintEntity>of(SaintEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(SaintEntity::new).fireImmune().sized(1f, 4.2f));
+					.setUpdateInterval(3).setCustomClientFactory(SaintEntity::new)
+
+					.sized(1f, 4.2f));
 	public static final RegistryObject<EntityType<RayvenEntity>> RAYVEN = register("rayven",
 			EntityType.Builder.<RayvenEntity>of(RayvenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(RayvenEntity::new)
