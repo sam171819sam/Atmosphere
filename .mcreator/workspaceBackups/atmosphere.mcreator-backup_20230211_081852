@@ -187,23 +187,6 @@
       "path": "~/Entitys"
     },
     {
-      "name": "SaintAnimationSprinting",
-      "type": "procedure",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saint_animation_sprinting",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Entitys"
-    },
-    {
       "name": "Rayven",
       "type": "livingentity",
       "sortid": 27,
@@ -223,6 +206,14 @@
         "dependencies": []
       },
       "path": "~/Entitys"
+    },
+    {
+      "name": "Atmosphere",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmosphere"
     }
   ],
   "variable_elements": [],
@@ -240,6 +231,7 @@
     "en_us": {
       "advancements.abrakadabra.descr": "Place a witch pool.",
       "entity.atmosphere.saint": "Saint",
+      "itemGroup.tabatmosphere": "Atmosphere",
       "subtitles.death_whistle": "Death",
       "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
       "entity.atmosphere.balloon_fly": "BalloonFly",
@@ -253,8 +245,7 @@
       "entity.atmosphere.rayven": "Rayven",
       "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
       "advancements.abrakadabra.title": "Abrakadabra",
-      "block.atmosphere.tub": "Tub",
-      "itemGroup.tabatmuspehere": "Atmuspehere"
+      "block.atmosphere.tub": "Tub"
     }
   },
   "foldersRoot": {

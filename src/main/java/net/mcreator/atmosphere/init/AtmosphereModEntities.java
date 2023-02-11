@@ -28,10 +28,10 @@ public class AtmosphereModEntities {
 			EntityType.Builder.<BalloonFlyEntity>of(BalloonFlyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BalloonFlyEntity::new)
 
-					.sized(0.4f, 0.7f));
+					.sized(1.3f, 1.3f));
 	public static final RegistryObject<EntityType<SaintEntity>> SAINT = register("saint",
 			EntityType.Builder.<SaintEntity>of(SaintEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(SaintEntity::new).fireImmune().sized(1f, 4.2f));
+					.setUpdateInterval(3).setCustomClientFactory(SaintEntity::new).fireImmune().sized(0.7999999999999999f, 3.8f));
 	public static final RegistryObject<EntityType<RayvenEntity>> RAYVEN = register("rayven",
 			EntityType.Builder.<RayvenEntity>of(RayvenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(RayvenEntity::new)

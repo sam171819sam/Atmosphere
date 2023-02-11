@@ -257,12 +257,7 @@
       },
       {
         "name": "Biomes",
-        "children": [
-          {
-            "name": "PetalParadise",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
