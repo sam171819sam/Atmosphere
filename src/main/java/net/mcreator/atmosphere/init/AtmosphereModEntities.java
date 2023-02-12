@@ -28,7 +28,7 @@ public class AtmosphereModEntities {
 			EntityType.Builder.<BalloonFlyEntity>of(BalloonFlyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BalloonFlyEntity::new)
 
-					.sized(0.4f, 0.7f));
+					.sized(1.3f, 1.3f));
 	public static final RegistryObject<EntityType<SaintEntity>> SAINT = register("saint",
 			EntityType.Builder.<SaintEntity>of(SaintEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(SaintEntity::new)
