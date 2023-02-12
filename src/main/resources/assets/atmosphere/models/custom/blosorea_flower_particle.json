@@ -1,0 +1,7 @@
+
+{
+  "parent": "atmosphere:custom/blosorea_flower",
+  "textures": {
+    "particle": "atmosphere:blocks/blosorea_flower"
+  }
+}

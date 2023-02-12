@@ -21,6 +21,7 @@ import net.mcreator.atmosphere.block.LuminumBlockBlock;
 import net.mcreator.atmosphere.block.GustyGrassBlock;
 import net.mcreator.atmosphere.block.DustyGlowstoneBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
+import net.mcreator.atmosphere.block.BlosoreaFlowerBlock;
 import net.mcreator.atmosphere.block.AtmosphereDimensionPortalBlock;
 import net.mcreator.atmosphere.AtmosphereMod;
 
@@ -40,4 +41,5 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> LUMINUM_DUST = REGISTRY.register("luminum_dust", () -> new LuminumDustBlock());
 	public static final RegistryObject<Block> DUSTY_GLOWSTONE = REGISTRY.register("dusty_glowstone", () -> new DustyGlowstoneBlock());
 	public static final RegistryObject<Block> LUMINUM_ORE = REGISTRY.register("luminum_ore", () -> new LuminumOreBlock());
+	public static final RegistryObject<Block> BLOSOREA_FLOWER = REGISTRY.register("blosorea_flower", () -> new BlosoreaFlowerBlock());
 }

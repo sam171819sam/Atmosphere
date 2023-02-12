@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "atmosphere:shatter_stone",
+    "atmosphere:gusty_grass",
     "atmosphere:luminum_dust",
     "atmosphere:dusty_glowstone"
   ]

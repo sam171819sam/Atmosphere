@@ -49,6 +49,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> LUMINUM_DUST = block(AtmosphereModBlocks.LUMINUM_DUST, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> DUSTY_GLOWSTONE = block(AtmosphereModBlocks.DUSTY_GLOWSTONE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> LUMINUM_ORE = block(AtmosphereModBlocks.LUMINUM_ORE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BLOSOREA_FLOWER = block(AtmosphereModBlocks.BLOSOREA_FLOWER, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

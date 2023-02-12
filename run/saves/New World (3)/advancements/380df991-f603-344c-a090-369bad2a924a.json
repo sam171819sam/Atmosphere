@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-02-12 23:36:39 +0100"
+    },
+    "done": true
+  },
+  "atmosphere:abrakadabra": {
+    "criteria": {
+      "abrakadabra": "2023-02-12 23:27:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-02-12 23:37:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-02-12 23:25:31 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

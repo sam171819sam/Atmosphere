@@ -1,8 +1,10 @@
 {
+  "advancements.shoot_blosorea_flower.title": "Rejection from Plant",
   "itemGroup.tabatmosphere": "Atmosphere",
   "subtitles.death_whistle": "Death",
   "entity.atmosphere.balloon_fly": "BalloonFly",
   "biome.atmosphere.dusty_luma": "Dusty Luma",
+  "block.atmosphere.blosorea_flower": "Blosorea Flower",
   "block.atmosphere.luminum_block": "Luminum Block",
   "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
   "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
@@ -28,5 +30,6 @@
   "item.atmosphere.luminum_ingot": "Luminum Ingot",
   "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
   "block.atmosphere.tub": "Tub",
-  "itemGroup.tabatmuspehere": "Atmuspehere"
+  "itemGroup.tabatmuspehere": "Atmuspehere",
+  "advancements.shoot_blosorea_flower.descr": "Shoot a Blosorea Flower"
 }
