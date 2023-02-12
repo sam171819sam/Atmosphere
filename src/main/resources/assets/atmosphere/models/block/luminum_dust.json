@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atmosphere:blocks/luminum_dust",
+    "up": "atmosphere:blocks/luminum_dust",
+    "north": "atmosphere:blocks/luminum_dust",
+    "east": "atmosphere:blocks/luminum_dust",
+    "south": "atmosphere:blocks/luminum_dust",
+    "west": "atmosphere:blocks/luminum_dust",
+    "particle": "atmosphere:blocks/luminum_dust"
+  },
+  "render_type": "solid"
+}

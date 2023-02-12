@@ -35,9 +35,11 @@ import net.mcreator.atmosphere.init.AtmosphereModTabs;
 import net.mcreator.atmosphere.init.AtmosphereModSounds;
 import net.mcreator.atmosphere.init.AtmosphereModMenus;
 import net.mcreator.atmosphere.init.AtmosphereModItems;
+import net.mcreator.atmosphere.init.AtmosphereModFeatures;
 import net.mcreator.atmosphere.init.AtmosphereModEntities;
 import net.mcreator.atmosphere.init.AtmosphereModBlocks;
 import net.mcreator.atmosphere.init.AtmosphereModBlockEntities;
+import net.mcreator.atmosphere.init.AtmosphereModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -60,9 +62,10 @@ public class AtmosphereMod {
 		AtmosphereModItems.REGISTRY.register(bus);
 		AtmosphereModEntities.REGISTRY.register(bus);
 		AtmosphereModBlockEntities.REGISTRY.register(bus);
+		AtmosphereModFeatures.REGISTRY.register(bus);
 
 		AtmosphereModMenus.REGISTRY.register(bus);
-
+		AtmosphereModBiomes.REGISTRY.register(bus);
 		GeckoLib.initialize();
 	}
 

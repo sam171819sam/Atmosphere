@@ -7,8 +7,8 @@
     "mobModelName": "Chicken",
     "mobModelTexture": "saint.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 1.0,
-    "modelHeight": 4.2,
+    "modelWidth": 0.7999999999999999,
+    "modelHeight": 3.8,
     "modelShadowSize": 0.19999999999999998,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -46,15 +46,15 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
-    "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
+    "attackStrength": 15,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 1.0,
     "movementSpeed": 0.3,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 2.0,
     "trackingRange": 64,
-    "followRange": 16,
-    "health": 10,
-    "xpAmount": 0,
+    "followRange": 64,
+    "health": 1024,
+    "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -81,16 +81,16 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.loop"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.wither.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.wither.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.polar_bear.step"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -101,7 +101,7 @@
     "particleAmount": 4,
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"61\" y=\"33\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.4</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"61\" y=\"33\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.8</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

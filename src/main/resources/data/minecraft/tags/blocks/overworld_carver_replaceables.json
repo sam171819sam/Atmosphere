@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:shatter_stone",
+    "atmosphere:luminum_dust",
+    "atmosphere:dusty_glowstone"
+  ]
+}

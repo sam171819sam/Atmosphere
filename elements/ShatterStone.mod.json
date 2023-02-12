@@ -123,17 +123,32 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:AtmosphereDimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DustyLuma"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:RawLuminumBlock"
+      },
+      {
+        "value": "CUSTOM:LuminumDust"
+      },
+      {
+        "value": "CUSTOM:DustyGlowstone"
+      },
+      {
+        "value": "CUSTOM:CobbledShatterStone"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 200
   }
 }

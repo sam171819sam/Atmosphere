@@ -19,6 +19,7 @@ import net.mcreator.atmosphere.item.SecureAmuletItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
 import net.mcreator.atmosphere.item.FireAmuletItem;
+import net.mcreator.atmosphere.item.AtmosphereDimensionItem;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 public class AtmosphereModItems {
@@ -43,6 +44,11 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> FIRE_AMULET = REGISTRY.register("fire_amulet", () -> new FireAmuletItem());
 	public static final RegistryObject<Item> SOFT_AMULET = REGISTRY.register("soft_amulet", () -> new SoftAmuletItem());
 	public static final RegistryObject<Item> SECURE_AMULET = REGISTRY.register("secure_amulet", () -> new SecureAmuletItem());
+	public static final RegistryObject<Item> GUSTY_GRASS = block(AtmosphereModBlocks.GUSTY_GRASS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ATMOSPHERE_DIMENSION = REGISTRY.register("atmosphere_dimension", () -> new AtmosphereDimensionItem());
+	public static final RegistryObject<Item> LUMINUM_DUST = block(AtmosphereModBlocks.LUMINUM_DUST, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> DUSTY_GLOWSTONE = block(AtmosphereModBlocks.DUSTY_GLOWSTONE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> LUMINUM_ORE = block(AtmosphereModBlocks.LUMINUM_ORE, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

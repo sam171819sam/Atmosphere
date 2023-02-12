@@ -7,6 +7,9 @@
     "atmosphere:witch_pool",
     "atmosphere:witch_crushing_stone",
     "atmosphere:shatter_stone",
-    "atmosphere:cobbled_shatter_stone"
+    "atmosphere:cobbled_shatter_stone",
+    "atmosphere:gusty_grass",
+    "atmosphere:dusty_glowstone",
+    "atmosphere:luminum_ore"
   ]
 }
