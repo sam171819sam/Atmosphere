@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "atmosphere:borea_wood",
+    "atmosphere:borea_log",
+    "atmosphere:borea_planks"
+  ]
+}
