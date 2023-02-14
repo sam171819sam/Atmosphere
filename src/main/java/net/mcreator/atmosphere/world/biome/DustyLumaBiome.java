@@ -24,7 +24,7 @@ public class DustyLumaBiome {
 				PlacementUtils.register("atmosphere:flower_dusty_luma", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.NONE).temperature(1.6f).downfall(0f).specialEffects(effects)
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.5f).downfall(0.5f).specialEffects(effects)
 				.mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }
