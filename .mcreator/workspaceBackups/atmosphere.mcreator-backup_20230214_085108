@@ -752,33 +752,204 @@
       "path": "~/Biomes/PetalParadise"
     },
     {
-      "name": "BlosoreaFlowerOnBlockHitByProjectile",
-      "type": "procedure",
+      "name": "BoreaWood",
+      "type": "block",
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blosorea_flower_on_block_hit_by_projectile",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
+      "registry_name": "borea_wood",
       "path": "~/Biomes/PetalParadise"
     },
     {
-      "name": "ShootBlosoreaFlower",
-      "type": "achievement",
+      "name": "BoreaLog",
+      "type": "block",
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shoot_blosorea_flower"
+      "registry_name": "borea_log",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaPlanks",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_planks",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaLeaves",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_leaves",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaStairs",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_stairs",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaSlab",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_slab",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaFence",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_fence",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaFenceGate",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_fence_gate",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaPressurePlate",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_pressure_plate",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaButton",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_button",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaItemsTag",
+      "type": "tag",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_items_tag",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaWoodRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_wood_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_planks_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaStairsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_stairs_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaSlabRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_slab_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaFenceRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_fence_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_fence_gate_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_pressure_plate_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaButtonRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_button_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "BoreaStickRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borea_stick_recipe",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "Sky",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -794,17 +965,21 @@
   ],
   "language_map": {
     "en_us": {
-      "advancements.shoot_blosorea_flower.title": "Rejection from Plant",
+      "block.atmosphere.borea_slab": "Borea Slab",
       "itemGroup.tabatmosphere": "Atmosphere",
       "subtitles.death_whistle": "Death",
       "entity.atmosphere.balloon_fly": "BalloonFly",
       "biome.atmosphere.dusty_luma": "Dusty Luma",
       "block.atmosphere.blosorea_flower": "Blosorea Flower",
       "block.atmosphere.luminum_block": "Luminum Block",
+      "block.atmosphere.borea_fence_gate": "Borea Fence Gate",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
+      "block.atmosphere.borea_leaves": "Borea Leaves",
       "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
+      "block.atmosphere.borea_fence": "Borea Fence",
       "entity.atmosphere.rayven": "Rayven",
       "block.atmosphere.luminum_ore": "Luminum Ore",
+      "block.atmosphere.borea_pressure_plate": "Borea Pressure Plate",
       "advancements.abrakadabra.title": "Abrakadabra",
       "block.atmosphere.gusty_grass": "Gusty Grass",
       "block.atmosphere.dusty_glowstone": "Dusty Glowstone",
@@ -815,18 +990,22 @@
       "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
       "block.atmosphere.luminum_dust": "Luminum Dust",
       "item.atmosphere.raw_luminum": "Raw Luminum",
+      "block.atmosphere.borea_stairs": "Borea Stairs",
       "block.atmosphere.witch_pool": "Witch Pool",
       "item.atmosphere.soft_amulet": "Soft Amulet",
       "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
       "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
       "block.atmosphere.shatter_stone": "Shatter Stone",
       "item.atmosphere.atmosphere_dimension": "Atmosphere Dimension Portal Igniter",
+      "block.atmosphere.borea_log": "Borea Log",
       "item.atmosphere.secure_amulet": "Secure Amulet",
+      "block.atmosphere.borea_wood": "Borea Wood",
+      "block.atmosphere.borea_planks": "Borea Planks",
       "item.atmosphere.luminum_ingot": "Luminum Ingot",
+      "block.atmosphere.borea_button": "Borea Button",
       "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
       "block.atmosphere.tub": "Tub",
-      "itemGroup.tabatmuspehere": "Atmuspehere",
-      "advancements.shoot_blosorea_flower.descr": "Shoot a Blosorea Flower"
+      "itemGroup.tabatmuspehere": "Atmuspehere"
     }
   },
   "foldersRoot": {

@@ -930,6 +930,26 @@
       "locked_code": false,
       "registry_name": "borea_stick_recipe",
       "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "Sky",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
