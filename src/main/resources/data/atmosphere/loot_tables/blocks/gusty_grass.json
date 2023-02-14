@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "atmosphere:deleted_mod_element",
+          "name": "atmosphere:gusty_grass",
           "weight": 1,
           "conditions": [
             {

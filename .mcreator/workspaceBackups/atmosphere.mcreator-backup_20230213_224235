@@ -272,14 +272,6 @@
       "registry_name": "secure_amulet"
     },
     {
-      "name": "GustyGrass",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gusty_grass"
-    },
-    {
       "name": "GG",
       "type": "loottable",
       "sortid": 40,
@@ -296,6 +288,46 @@
       "registry_name": "wavy_meadow"
     },
     {
+      "name": "DustyLuma",
+      "type": "biome",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusty_luma"
+    },
+    {
+      "name": "DustyGlowstone",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusty_glowstone"
+    },
+    {
+      "name": "LuminumDust",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_dust"
+    },
+    {
+      "name": "LuminumOre",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminum_ore"
+    },
+    {
+      "name": "GustyGrass",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gusty_grass"
+    },
+    {
       "name": "AtmosphereDimension",
       "type": "dimension",
       "sortid": 41,
@@ -305,14 +337,6 @@
       "metadata": {
         "ep": true
       }
-    },
-    {
-      "name": "LuminumDust",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminum_dust"
     }
   ],
   "variable_elements": [],
@@ -331,12 +355,15 @@
       "itemGroup.tabatmosphere": "Atmosphere",
       "subtitles.death_whistle": "Death",
       "entity.atmosphere.balloon_fly": "BalloonFly",
+      "biome.atmosphere.dusty_luma": "Dusty Luma",
       "block.atmosphere.luminum_block": "Luminum Block",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
       "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
       "entity.atmosphere.rayven": "Rayven",
+      "block.atmosphere.luminum_ore": "Luminum Ore",
       "advancements.abrakadabra.title": "Abrakadabra",
       "block.atmosphere.gusty_grass": "Gusty Grass",
+      "block.atmosphere.dusty_glowstone": "Dusty Glowstone",
       "advancements.abrakadabra.descr": "Place a witch pool.",
       "item.atmosphere.fire_amulet": "Fire Amulet",
       "entity.atmosphere.saint": "Saint",
@@ -360,6 +387,15 @@
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "PetalParadise",
+            "children": []
+          }
+        ]
+      },
       {
         "name": "Entitys",
         "children": []
