@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "CUSTOM:Atmosphere"
     },
     "destroyTool": "Not specified",
     "customDrop": {

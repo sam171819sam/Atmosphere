@@ -56,10 +56,13 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> BOREA_LEAVES = block(AtmosphereModBlocks.BOREA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BOREA_STAIRS = block(AtmosphereModBlocks.BOREA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_SLAB = block(AtmosphereModBlocks.BOREA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> BOREA_FENCE = block(AtmosphereModBlocks.BOREA_FENCE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BOREA_FENCE_GATE = block(AtmosphereModBlocks.BOREA_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> BOREA_PRESSURE_PLATE = block(AtmosphereModBlocks.BOREA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BOREA_FENCE = block(AtmosphereModBlocks.BOREA_FENCE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BOREA_FENCE_GATE = block(AtmosphereModBlocks.BOREA_FENCE_GATE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BOREA_PRESSURE_PLATE = block(AtmosphereModBlocks.BOREA_PRESSURE_PLATE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_BUTTON = block(AtmosphereModBlocks.BOREA_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BLOSOREA_VINES = block(AtmosphereModBlocks.BLOSOREA_VINES, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HUMUS_SOIL = block(AtmosphereModBlocks.HUMUS_SOIL, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HUMUS_GRASS_BLOCK = block(AtmosphereModBlocks.HUMUS_GRASS_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

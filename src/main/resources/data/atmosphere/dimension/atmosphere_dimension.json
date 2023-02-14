@@ -10,24 +10,51 @@
           "biome": "atmosphere:wavy_meadow",
           "parameters": {
             "temperature": [
-              -0.25,
-              0.25
+              -0.533333333333,
+              0.133333333333
             ],
             "humidity": [
-              -0.25,
-              0.25
+              0.666666666667,
+              1.333333333333
             ],
             "continentalness": [
-              0.26,
-              0.76
+              0.256666666667,
+              0.923333333333
             ],
             "weirdness": [
-              -0.469235490403,
-              0.030764509597
+              -0.552568823736,
+              0.11409784293
             ],
             "erosion": [
-              0.55,
-              1.05
+              0.366666666667,
+              1.033333333333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "atmosphere:petal_paradise",
+          "parameters": {
+            "temperature": [
+              0.233333333334,
+              0.833333333334
+            ],
+            "humidity": [
+              0.1,
+              0.7
+            ],
+            "continentalness": [
+              0.23,
+              0.83
+            ],
+            "weirdness": [
+              -0.519235490403,
+              0.080764509597
+            ],
+            "erosion": [
+              -0.0999999999999999,
+              0.5000000000000001
             ],
             "depth": 0,
             "offset": 0
@@ -37,24 +64,24 @@
           "biome": "atmosphere:dusty_luma",
           "parameters": {
             "temperature": [
-              0.266666666667,
-              0.933333333333
+              0.366666666667,
+              1.100000000001
             ],
             "humidity": [
-              -1.333333333333,
-              -0.666666666667
+              -1.366666666667,
+              -0.633333333333
             ],
             "continentalness": [
-              0.176666666667,
-              0.843333333333
+              0.113333333333,
+              0.846666666667
             ],
             "weirdness": [
-              -0.552568823736,
-              0.11409784293
+              -0.58590215707,
+              0.147431176264
             ],
             "erosion": [
-              0.466666666667,
-              1.133333333333
+              -0.366666666667,
+              0.366666666667
             ],
             "depth": 0,
             "offset": 0
@@ -268,6 +295,72 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "atmosphere:shatter_stone"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "atmosphere:petal_paradise"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:water",
+                          "offset": -1,
+                          "surface_depth_multiplier": 0,
+                          "add_stone_depth": false
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "atmosphere:humus_grass_block"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "atmosphere:humus_soil"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": true,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "atmosphere:humus_soil"
                     }
                   }
                 }

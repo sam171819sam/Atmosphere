@@ -4,10 +4,13 @@
   "definition": {
     "biomesInDimension": [
       {
+        "value": "CUSTOM:WavyMeadow"
+      },
+      {
         "value": "CUSTOM:DustyLuma"
       },
       {
-        "value": "CUSTOM:WavyMeadow"
+        "value": "CUSTOM:PetalParadise"
       }
     ],
     "worldGenType": "End like gen",
