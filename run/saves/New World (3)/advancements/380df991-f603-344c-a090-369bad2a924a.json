@@ -1,0 +1,46 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-02-14 09:23:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-02-12 23:36:39 +0100"
+    },
+    "done": true
+  },
+  "atmosphere:abrakadabra": {
+    "criteria": {
+      "abrakadabra": "2023-02-12 23:27:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-02-13 18:06:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-02-13 18:06:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-02-12 23:37:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2023-02-14 09:24:19 +0100",
+      "minecraft:savanna": "2023-02-12 23:25:31 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
