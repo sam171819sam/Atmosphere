@@ -56,7 +56,7 @@ public class WavyMeadowBiome {
 				PlacementUtils.register("atmosphere:flower_wavy_meadow", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.2f).downfall(1f).specialEffects(effects)
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.7999999999999999f).downfall(1f).specialEffects(effects)
 				.mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

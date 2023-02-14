@@ -53,7 +53,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> BOREA_WOOD = block(AtmosphereModBlocks.BOREA_WOOD, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_LOG = block(AtmosphereModBlocks.BOREA_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_PLANKS = block(AtmosphereModBlocks.BOREA_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> BOREA_LEAVES = block(AtmosphereModBlocks.BOREA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BOREA_LEAVES = block(AtmosphereModBlocks.BOREA_LEAVES, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_STAIRS = block(AtmosphereModBlocks.BOREA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_SLAB = block(AtmosphereModBlocks.BOREA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_FENCE = block(AtmosphereModBlocks.BOREA_FENCE, AtmosphereModTabs.TAB_ATMOSPHERE);
