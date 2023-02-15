@@ -63,6 +63,11 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> BLOSOREA_VINES = block(AtmosphereModBlocks.BLOSOREA_VINES, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HUMUS_SOIL = block(AtmosphereModBlocks.HUMUS_SOIL, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HUMUS_GRASS_BLOCK = block(AtmosphereModBlocks.HUMUS_GRASS_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> WINDCALLER = REGISTRY.register("windcaller_spawn_egg",
+			() -> new ForgeSpawnEggItem(AtmosphereModEntities.WINDCALLER, -5520698, -13084959,
+					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> SQUALL = REGISTRY.register("squall_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SQUALL,
+			-12102231, -14408668, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

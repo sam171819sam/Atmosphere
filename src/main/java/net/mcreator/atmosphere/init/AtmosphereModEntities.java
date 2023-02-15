@@ -16,6 +16,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.atmosphere.entity.WindcallerEntity;
+import net.mcreator.atmosphere.entity.SquallEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
@@ -39,6 +41,14 @@ public class AtmosphereModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(RayvenEntity::new)
 
 					.sized(4.3999999999999995f, 1.4f));
+	public static final RegistryObject<EntityType<WindcallerEntity>> WINDCALLER = register("windcaller",
+			EntityType.Builder.<WindcallerEntity>of(WindcallerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WindcallerEntity::new)
+
+					.sized(0.6f, 2.1999999999999997f));
+	public static final RegistryObject<EntityType<SquallEntity>> SQUALL = register("squall",
+			EntityType.Builder.<SquallEntity>of(SquallEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70)
+					.setUpdateInterval(3).setCustomClientFactory(SquallEntity::new).fireImmune().sized(0.6f, 1.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -50,6 +60,8 @@ public class AtmosphereModEntities {
 			BalloonFlyEntity.init();
 			SaintEntity.init();
 			RayvenEntity.init();
+			WindcallerEntity.init();
+			SquallEntity.init();
 		});
 	}
 
@@ -58,5 +70,7 @@ public class AtmosphereModEntities {
 		event.put(BALLOON_FLY.get(), BalloonFlyEntity.createAttributes().build());
 		event.put(SAINT.get(), SaintEntity.createAttributes().build());
 		event.put(RAYVEN.get(), RayvenEntity.createAttributes().build());
+		event.put(WINDCALLER.get(), WindcallerEntity.createAttributes().build());
+		event.put(SQUALL.get(), SquallEntity.createAttributes().build());
 	}
 }

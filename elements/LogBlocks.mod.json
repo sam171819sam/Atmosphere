@@ -4,7 +4,14 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BoreaWood"
+      },
+      {
+        "value": "CUSTOM:BoreaLog"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],
