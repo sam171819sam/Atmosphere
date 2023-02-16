@@ -24,6 +24,7 @@ import net.mcreator.atmosphere.block.GustyGrassBlock;
 import net.mcreator.atmosphere.block.DustyGlowstoneBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
 import net.mcreator.atmosphere.block.BoreaWoodBlock;
+import net.mcreator.atmosphere.block.BoreaTrapdoorBlock;
 import net.mcreator.atmosphere.block.BoreaStairsBlock;
 import net.mcreator.atmosphere.block.BoreaSlabBlock;
 import net.mcreator.atmosphere.block.BoreaPressurePlateBlock;
@@ -32,6 +33,7 @@ import net.mcreator.atmosphere.block.BoreaLogBlock;
 import net.mcreator.atmosphere.block.BoreaLeavesBlock;
 import net.mcreator.atmosphere.block.BoreaFenceGateBlock;
 import net.mcreator.atmosphere.block.BoreaFenceBlock;
+import net.mcreator.atmosphere.block.BoreaDoorBlock;
 import net.mcreator.atmosphere.block.BoreaButtonBlock;
 import net.mcreator.atmosphere.block.BlosoreaVinesBlock;
 import net.mcreator.atmosphere.block.BlosoreaFlowerBlock;
@@ -68,4 +70,6 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> BLOSOREA_VINES = REGISTRY.register("blosorea_vines", () -> new BlosoreaVinesBlock());
 	public static final RegistryObject<Block> HUMUS_SOIL = REGISTRY.register("humus_soil", () -> new HumusSoilBlock());
 	public static final RegistryObject<Block> HUMUS_GRASS_BLOCK = REGISTRY.register("humus_grass_block", () -> new HumusGrassBlockBlock());
+	public static final RegistryObject<Block> BOREA_DOOR = REGISTRY.register("borea_door", () -> new BoreaDoorBlock());
+	public static final RegistryObject<Block> BOREA_TRAPDOOR = REGISTRY.register("borea_trapdoor", () -> new BoreaTrapdoorBlock());
 }

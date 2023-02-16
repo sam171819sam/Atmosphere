@@ -687,6 +687,8 @@ public class SkyProcedure {
 			drawSunlight(81, 255, 212, 255, RGBA);
 			drawStar(2300, 10842, 255, 255, 122, 255, RGBA);
 			drawTexture("atmosphere", "textures/sun.png", (world.dayTime() * (-0.01) - 90), (world.dayTime() * (-0.015)), 0.004, 45);
+			drawTexture("atmosphere", "textures/mars.png", (world.dayTime() * 0.008 + 30), (world.dayTime() * 0.007), 0.07, 25);
+			drawTexture("atmosphere", "textures/saturn.png", (world.dayTime() * 0.02 + 160), (world.dayTime() * 0.006), 0.12, 20);
 			drawTexture("atmosphere", "textures/moon.png", (world.dayTime() * 0.01 + 90), (world.dayTime() * 0.015), 0.08, 40);
 		}
 	}

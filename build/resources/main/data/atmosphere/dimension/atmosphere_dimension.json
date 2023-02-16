@@ -10,24 +10,24 @@
           "biome": "atmosphere:wavy_meadow",
           "parameters": {
             "temperature": [
-              -0.133333333333,
-              0.533333333333
+              -0.633333333333,
+              1.033333333333
             ],
             "humidity": [
-              0.666666666667,
-              1.333333333333
+              0.166666666667,
+              1.833333333333
             ],
             "continentalness": [
-              0.416666666667,
-              1.083333333333
+              -0.333233333333,
+              1.333433333333
             ],
             "weirdness": [
-              -0.552568823736,
-              0.11409784293
+              -1.052568823736,
+              0.61409784293
             ],
             "erosion": [
-              0.366666666667,
-              1.033333333333
+              0.164666666667,
+              1.831333333333
             ],
             "depth": 0,
             "offset": 0
@@ -37,24 +37,24 @@
           "biome": "atmosphere:petal_paradise",
           "parameters": {
             "temperature": [
-              0.266666666667,
-              0.800000000001
+              -0.283333333333,
+              1.350000000001
             ],
             "humidity": [
-              0.133333333333,
-              0.666666666667
+              -0.416666666667,
+              1.216666666667
             ],
             "continentalness": [
-              0.383333333333,
-              0.916666666667
+              -0.316166666667,
+              1.217166666667
             ],
             "weirdness": [
-              -0.48590215707,
-              0.047431176264
+              -1.03590215707,
+              0.597431176264
             ],
             "erosion": [
-              0.233333333333,
-              0.766666666667
+              0.177333333333,
+              1.810666666667
             ],
             "depth": 0,
             "offset": 0
@@ -64,24 +64,24 @@
           "biome": "atmosphere:dusty_luma",
           "parameters": {
             "temperature": [
-              0.333333333334,
-              1.133333333334
+              -0.116666666666,
+              1.583333333334
             ],
             "humidity": [
-              -1.4,
-              -0.6
+              -1.85,
+              -0.15
             ],
             "continentalness": [
-              0.18,
-              0.98
+              -0.8497,
+              1.7503
             ],
             "weirdness": [
-              -0.619235490403,
-              0.180764509597
+              -1.069235490403,
+              0.630764509597
             ],
             "erosion": [
-              0.2,
-              1
+              0.146,
+              1.846
             ],
             "depth": 0,
             "offset": 0
@@ -109,117 +109,80 @@
         }
       },
       "spawn_target": [],
-      "noise": {
-        "min_y": 0,
-        "height": 128,
-        "size_horizontal": 2,
-        "size_vertical": 1,
-        "island_noise_override": true
-      },
-      "noise_router": {
-        "barrier": 0,
-        "fluid_level_floodedness": 0,
-        "fluid_level_spread": 0,
-        "lava": 0,
-        "temperature": 0,
-        "vegetation": 0,
-        "continents": 0,
-        "erosion": {
-          "type": "minecraft:cache_2d",
+"noise": {
+    "min_y": 0,
+    "height": 256,
+    "size_horizontal": 2,
+    "size_vertical": 1
+  },
+  "noise_router": {
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:vegetation",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "continents": 0,
+    "erosion": 0,
+    "depth": 0,
+    "ridges": 0,
+    "initial_density_without_jaggedness": 0,
+    "final_density": {
+      "type": "minecraft:squeeze",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": 0.64,
+        "argument2": {
+          "type": "minecraft:interpolated",
           "argument": {
-            "type": "minecraft:end_islands"
-          }
-        },
-        "depth": 0,
-        "ridges": 0,
-        "initial_density_without_jaggedness": {
-          "type": "minecraft:add",
-          "argument1": -0.234375,
-          "argument2": {
-            "type": "minecraft:mul",
-            "argument1": {
-              "type": "minecraft:y_clamped_gradient",
-              "from_y": 4,
-              "to_y": 32,
-              "from_value": 0,
-              "to_value": 1
-            },
-            "argument2": {
+            "type": "minecraft:blend_density",
+            "argument": {
               "type": "minecraft:add",
-              "argument1": 0.234375,
+              "argument1": -0.234375,
               "argument2": {
-                "type": "minecraft:add",
-                "argument1": -23.4375,
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 4,
+                  "to_y": 32,
+                  "from_value": 0,
+                  "to_value": 1
+                },
                 "argument2": {
-                  "type": "minecraft:mul",
-                  "argument1": {
-                    "type": "minecraft:y_clamped_gradient",
-                    "from_y": 56,
-                    "to_y": 312,
-                    "from_value": 1,
-                    "to_value": 0
-                  },
+                  "type": "minecraft:add",
+                  "argument1": 0.234375,
                   "argument2": {
                     "type": "minecraft:add",
-                    "argument1": 23.4375,
+                    "argument1": -23.4375,
                     "argument2": {
-                      "type": "minecraft:add",
-                      "argument1": -0.703125,
-                      "argument2": {
-                        "type": "minecraft:cache_2d",
-                        "argument": {
-                          "type": "minecraft:end_islands"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "final_density": {
-          "type": "minecraft:squeeze",
-          "argument": {
-            "type": "minecraft:mul",
-            "argument1": 0.64,
-            "argument2": {
-              "type": "minecraft:interpolated",
-              "argument": {
-                "type": "minecraft:blend_density",
-                "argument": {
-                  "type": "minecraft:add",
-                  "argument1": -0.234375,
-                  "argument2": {
-                    "type": "minecraft:mul",
-                    "argument1": {
-                      "type": "minecraft:y_clamped_gradient",
-                      "from_y": 4,
-                      "to_y": 32,
-                      "from_value": 0,
-                      "to_value": 1
-                    },
-                    "argument2": {
-                      "type": "minecraft:add",
-                      "argument1": 0.234375,
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_y": 120,
+                        "to_y": 440,
+                        "from_value": 1,
+                        "to_value": 0.8
+                      },
                       "argument2": {
                         "type": "minecraft:add",
-                        "argument1": -23.4375,
-                        "argument2": {
-                          "type": "minecraft:mul",
-                          "argument1": {
-                            "type": "minecraft:y_clamped_gradient",
-                            "from_y": 56,
-                            "to_y": 312,
-                            "from_value": 1,
-                            "to_value": 0
-                          },
-                          "argument2": {
-                            "type": "minecraft:add",
-                            "argument1": 23.4375,
-                            "argument2": "minecraft:end/sloped_cheese"
-                          }
-                        }
+                        "argument1": 23.4375,
+                        "argument2": "minecraft:end/base_3d_noise"
                       }
                     }
                   }
@@ -227,10 +190,12 @@
               }
             }
           }
-        },
-        "vein_toggle": 0,
-        "vein_ridged": 0,
-        "vein_gap": 0
+        }
+      }
+    },
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0
       },
       "surface_rule": {
         "type": "minecraft:sequence",
