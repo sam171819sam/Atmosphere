@@ -70,9 +70,14 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> SQUALL = REGISTRY.register("squall_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SQUALL,
 			-12102231, -14408668, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> CLOUD_FLUFF = block(AtmosphereModBlocks.CLOUD_FLUFF, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> CROAKER = REGISTRY.register("croaker_spawn_egg",
+			() -> new ForgeSpawnEggItem(AtmosphereModEntities.CROAKER, -13932456, -4895347,
+					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> ZORRO_WOOD = block(AtmosphereModBlocks.ZORRO_WOOD, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_LOG = block(AtmosphereModBlocks.ZORRO_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BOREA_DOOR = doubleBlock(AtmosphereModBlocks.BOREA_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_PLANKS = block(AtmosphereModBlocks.ZORRO_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> BOREA_TRAPDOOR = block(AtmosphereModBlocks.BOREA_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_LEAVES = block(AtmosphereModBlocks.ZORRO_LEAVES, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_STAIRS = block(AtmosphereModBlocks.ZORRO_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_SLAB = block(AtmosphereModBlocks.ZORRO_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "atmosphere:zorro_planks"
+      "item": "atmosphere:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "atmosphere:zorro_button",
+    "item": "atmosphere:deleted_mod_element",
     "count": 1
   }
 }

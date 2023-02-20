@@ -6,26 +6,26 @@
   ],
   "key": {
     "0": {
-      "item": "atmosphere:zorro_planks"
+      "item": "atmosphere:deleted_mod_element"
     },
     "1": {
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "atmosphere:zorro_planks"
+      "item": "atmosphere:deleted_mod_element"
     },
     "3": {
-      "item": "atmosphere:zorro_planks"
+      "item": "atmosphere:deleted_mod_element"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "atmosphere:zorro_planks"
+      "item": "atmosphere:deleted_mod_element"
     }
   },
   "result": {
-    "item": "atmosphere:zorro_fence",
+    "item": "atmosphere:deleted_mod_element",
     "count": 3
   }
 }

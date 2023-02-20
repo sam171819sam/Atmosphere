@@ -104,7 +104,7 @@ public class SquallEntity extends Monster implements IAnimatable {
 			public void start() {
 				LivingEntity livingentity = SquallEntity.this.getTarget();
 				Vec3 vec3d = livingentity.getEyePosition(1);
-				SquallEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 6);
+				SquallEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
 			}
 
 			@Override
@@ -116,12 +116,12 @@ public class SquallEntity extends Monster implements IAnimatable {
 					double d0 = SquallEntity.this.distanceToSqr(livingentity);
 					if (d0 < 25) {
 						Vec3 vec3d = livingentity.getEyePosition(1);
-						SquallEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 6);
+						SquallEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
 					}
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 5, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = SquallEntity.this.getRandom();
@@ -131,7 +131,7 @@ public class SquallEntity extends Monster implements IAnimatable {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 6, false) {
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return (double) (4.0 + entity.getBbWidth() * entity.getBbWidth());
@@ -187,14 +187,14 @@ public class SquallEntity extends Monster implements IAnimatable {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.6);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
 		builder = builder.add(Attributes.MAX_HEALTH, 25);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 9);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 40);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.1);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.1);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.6);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.4);
 		return builder;
 	}
 

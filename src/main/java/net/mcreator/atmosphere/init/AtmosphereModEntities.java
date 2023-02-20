@@ -17,9 +17,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.atmosphere.entity.WindcallerEntity;
+import net.mcreator.atmosphere.entity.WindEntity;
 import net.mcreator.atmosphere.entity.SquallEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
+import net.mcreator.atmosphere.entity.CroakerEntity;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
 import net.mcreator.atmosphere.AtmosphereMod;
 
@@ -49,6 +51,14 @@ public class AtmosphereModEntities {
 	public static final RegistryObject<EntityType<SquallEntity>> SQUALL = register("squall",
 			EntityType.Builder.<SquallEntity>of(SquallEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70)
 					.setUpdateInterval(3).setCustomClientFactory(SquallEntity::new).fireImmune().sized(0.6f, 1.1f));
+	public static final RegistryObject<EntityType<CroakerEntity>> CROAKER = register("croaker",
+			EntityType.Builder.<CroakerEntity>of(CroakerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(CroakerEntity::new)
+
+					.sized(1.5999999999999999f, 0.9f));
+	public static final RegistryObject<EntityType<WindEntity>> WIND = register("wind",
+			EntityType.Builder.<WindEntity>of(WindEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(WindEntity::new).fireImmune().sized(6f, 3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -62,6 +72,8 @@ public class AtmosphereModEntities {
 			RayvenEntity.init();
 			WindcallerEntity.init();
 			SquallEntity.init();
+			CroakerEntity.init();
+			WindEntity.init();
 		});
 	}
 
@@ -72,5 +84,7 @@ public class AtmosphereModEntities {
 		event.put(RAYVEN.get(), RayvenEntity.createAttributes().build());
 		event.put(WINDCALLER.get(), WindcallerEntity.createAttributes().build());
 		event.put(SQUALL.get(), SquallEntity.createAttributes().build());
+		event.put(CROAKER.get(), CroakerEntity.createAttributes().build());
+		event.put(WIND.get(), WindEntity.createAttributes().build());
 	}
 }
