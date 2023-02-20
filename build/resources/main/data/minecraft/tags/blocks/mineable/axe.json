@@ -3,6 +3,11 @@
   "values": [
     "atmosphere:borea_wood",
     "atmosphere:borea_log",
-    "atmosphere:borea_planks"
+    "atmosphere:borea_planks",
+    "atmosphere:zorro_wood",
+    "atmosphere:zorro_log",
+    "atmosphere:zorro_planks",
+    "atmosphere:zorro_door",
+    "atmosphere:zorro_trapdoor"
   ]
 }

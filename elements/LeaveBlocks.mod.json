@@ -7,6 +7,12 @@
     "blocks": [
       {
         "value": "CUSTOM:BoreaLeaves"
+      },
+      {
+        "value": "CUSTOM:ZorroLeaves"
+      },
+      {
+        "value": "CUSTOM:FloweringZorroLeaves"
       }
     ],
     "functions": [],

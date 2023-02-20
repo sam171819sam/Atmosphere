@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
@@ -68,8 +69,27 @@ public class AtmosphereModItems {
 					new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
 	public static final RegistryObject<Item> SQUALL = REGISTRY.register("squall_spawn_egg", () -> new ForgeSpawnEggItem(AtmosphereModEntities.SQUALL,
 			-12102231, -14408668, new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE)));
+	public static final RegistryObject<Item> CLOUD_FLUFF = block(AtmosphereModBlocks.CLOUD_FLUFF, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_WOOD = block(AtmosphereModBlocks.ZORRO_WOOD, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_LOG = block(AtmosphereModBlocks.ZORRO_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_PLANKS = block(AtmosphereModBlocks.ZORRO_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_LEAVES = block(AtmosphereModBlocks.ZORRO_LEAVES, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_STAIRS = block(AtmosphereModBlocks.ZORRO_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_SLAB = block(AtmosphereModBlocks.ZORRO_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_FENCE = block(AtmosphereModBlocks.ZORRO_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ZORRO_FENCE_GATE = block(AtmosphereModBlocks.ZORRO_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> ZORRO_PRESSURE_PLATE = block(AtmosphereModBlocks.ZORRO_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> ZORRO_BUTTON = block(AtmosphereModBlocks.ZORRO_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FLOWERING_ZORRO_LEAVES = block(AtmosphereModBlocks.FLOWERING_ZORRO_LEAVES,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_DOOR = doubleBlock(AtmosphereModBlocks.ZORRO_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_TRAPDOOR = block(AtmosphereModBlocks.ZORRO_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

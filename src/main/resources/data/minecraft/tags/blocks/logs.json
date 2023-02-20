@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "atmosphere:borea_wood",
-    "atmosphere:borea_log"
+    "atmosphere:zorro_log",
+    "atmosphere:borea_log",
+    "atmosphere:zorro_wood"
   ]
 }
