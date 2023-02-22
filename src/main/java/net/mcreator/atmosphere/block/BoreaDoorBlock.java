@@ -1,18 +1,27 @@
 
 package net.mcreator.atmosphere.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.core.BlockPos;
 
-public class BoreaDoorBlock extends DoorBlock
+import java.util.List;
+import java.util.Collections;
 
-{
-
+public class BoreaDoorBlock extends DoorBlock {
 	public BoreaDoorBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
-
 	}
 
 	@Override
@@ -29,11 +38,9 @@ public class BoreaDoorBlock extends DoorBlock
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		if (state.getValue(BlockStateProperties.DOUBLE_BLOCK_HALF) != DoubleBlockHalf.LOWER)
 			return Collections.emptyList();
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
 	}
-
 }

@@ -20,6 +20,7 @@ import net.mcreator.atmosphere.item.SecureAmuletItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
 import net.mcreator.atmosphere.item.FireAmuletItem;
+import net.mcreator.atmosphere.item.CroakerSpittleItem;
 import net.mcreator.atmosphere.item.AtmosphereDimensionItem;
 import net.mcreator.atmosphere.AtmosphereMod;
 
@@ -89,6 +90,8 @@ public class AtmosphereModItems {
 			AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_DOOR = doubleBlock(AtmosphereModBlocks.ZORRO_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_TRAPDOOR = block(AtmosphereModBlocks.ZORRO_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> LUMINESCENT_LODE = block(AtmosphereModBlocks.LUMINESCENT_LODE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

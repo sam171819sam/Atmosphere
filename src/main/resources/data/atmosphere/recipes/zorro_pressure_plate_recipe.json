@@ -5,14 +5,14 @@
   ],
   "key": {
     "0": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:zorro_planks"
     },
     "1": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:zorro_planks"
     }
   },
   "result": {
-    "item": "atmosphere:deleted_mod_element",
+    "item": "atmosphere:zorro_pressure_plate",
     "count": 1
   }
 }

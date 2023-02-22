@@ -30,6 +30,7 @@ import net.mcreator.atmosphere.block.RawLuminumBlockBlock;
 import net.mcreator.atmosphere.block.LuminumOreBlock;
 import net.mcreator.atmosphere.block.LuminumDustBlock;
 import net.mcreator.atmosphere.block.LuminumBlockBlock;
+import net.mcreator.atmosphere.block.LuminescentLodeBlock;
 import net.mcreator.atmosphere.block.HumusSoilBlock;
 import net.mcreator.atmosphere.block.HumusGrassBlockBlock;
 import net.mcreator.atmosphere.block.GustyGrassBlock;
@@ -101,4 +102,5 @@ public class AtmosphereModBlocks {
 			() -> new FloweringZorroLeavesBlock());
 	public static final RegistryObject<Block> ZORRO_DOOR = REGISTRY.register("zorro_door", () -> new ZorroDoorBlock());
 	public static final RegistryObject<Block> ZORRO_TRAPDOOR = REGISTRY.register("zorro_trapdoor", () -> new ZorroTrapdoorBlock());
+	public static final RegistryObject<Block> LUMINESCENT_LODE = REGISTRY.register("luminescent_lode", () -> new LuminescentLodeBlock());
 }

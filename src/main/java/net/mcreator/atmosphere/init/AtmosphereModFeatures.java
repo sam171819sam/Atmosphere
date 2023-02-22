@@ -14,7 +14,11 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.mcreator.atmosphere.world.features.ores.ShatterStoneFeature;
 import net.mcreator.atmosphere.world.features.ores.RawLuminumBlockFeature;
 import net.mcreator.atmosphere.world.features.ores.LuminumOreFeature;
+import net.mcreator.atmosphere.world.features.ores.LuminescentLodeFeature;
 import net.mcreator.atmosphere.world.features.ores.CobbledShatterStoneFeature;
+import net.mcreator.atmosphere.world.features.BoreaTree3Feature;
+import net.mcreator.atmosphere.world.features.BoreaTree2Feature;
+import net.mcreator.atmosphere.world.features.BoreaTree1Feature;
 import net.mcreator.atmosphere.AtmosphereMod;
 
 @Mod.EventBusSubscriber
@@ -25,4 +29,8 @@ public class AtmosphereModFeatures {
 	public static final RegistryObject<Feature<?>> COBBLED_SHATTER_STONE = REGISTRY.register("cobbled_shatter_stone",
 			CobbledShatterStoneFeature::feature);
 	public static final RegistryObject<Feature<?>> LUMINUM_ORE = REGISTRY.register("luminum_ore", LuminumOreFeature::feature);
+	public static final RegistryObject<Feature<?>> BOREA_TREE_1 = REGISTRY.register("borea_tree_1", BoreaTree1Feature::feature);
+	public static final RegistryObject<Feature<?>> BOREA_TREE_2 = REGISTRY.register("borea_tree_2", BoreaTree2Feature::feature);
+	public static final RegistryObject<Feature<?>> BOREA_TREE_3 = REGISTRY.register("borea_tree_3", BoreaTree3Feature::feature);
+	public static final RegistryObject<Feature<?>> LUMINESCENT_LODE = REGISTRY.register("luminescent_lode", LuminescentLodeFeature::feature);
 }
