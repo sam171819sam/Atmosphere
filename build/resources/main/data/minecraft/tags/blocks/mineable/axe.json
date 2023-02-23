@@ -8,6 +8,11 @@
     "atmosphere:zorro_log",
     "atmosphere:zorro_planks",
     "atmosphere:zorro_door",
-    "atmosphere:zorro_trapdoor"
+    "atmosphere:zorro_trapdoor",
+    "atmosphere:horna_wood",
+    "atmosphere:horna_log",
+    "atmosphere:horna_planks",
+    "atmosphere:horna_door",
+    "atmosphere:horna_trapdoor"
   ]
 }

@@ -10,6 +10,10 @@
     "atmosphere:cobbled_shatter_stone",
     "atmosphere:gusty_grass",
     "atmosphere:dusty_glowstone",
-    "atmosphere:luminum_ore"
+    "atmosphere:luminum_ore",
+    "atmosphere:frosted_shatter_stone",
+    "atmosphere:frosted_cobbled_shatter_stone",
+    "atmosphere:frosted_ice_block",
+    "atmosphere:frozen_ice_block"
   ]
 }

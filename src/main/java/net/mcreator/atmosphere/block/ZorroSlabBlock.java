@@ -1,17 +1,24 @@
 
 package net.mcreator.atmosphere.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.SlabType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
 
-public class ZorroSlabBlock extends SlabBlock
+import java.util.List;
+import java.util.Collections;
 
-{
-
+public class ZorroSlabBlock extends SlabBlock {
 	public ZorroSlabBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
-
 	}
 
 	@Override
@@ -31,5 +38,4 @@ public class ZorroSlabBlock extends SlabBlock
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, state.getValue(TYPE) == SlabType.DOUBLE ? 2 : 1));
 	}
-
 }

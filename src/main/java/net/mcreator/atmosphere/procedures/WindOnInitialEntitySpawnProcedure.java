@@ -1,8 +1,9 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
 
-import javax.annotation.Nullable;
+import net.mcreator.atmosphere.AtmosphereMod;
 
 public class WindOnInitialEntitySpawnProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

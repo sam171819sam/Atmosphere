@@ -32,7 +32,24 @@ import net.mcreator.atmosphere.block.LuminumDustBlock;
 import net.mcreator.atmosphere.block.LuminumBlockBlock;
 import net.mcreator.atmosphere.block.HumusSoilBlock;
 import net.mcreator.atmosphere.block.HumusGrassBlockBlock;
+import net.mcreator.atmosphere.block.HornaWoodBlock;
+import net.mcreator.atmosphere.block.HornaTrapdoorBlock;
+import net.mcreator.atmosphere.block.HornaStairsBlock;
+import net.mcreator.atmosphere.block.HornaSlabBlock;
+import net.mcreator.atmosphere.block.HornaPressurePlateBlock;
+import net.mcreator.atmosphere.block.HornaPlanksBlock;
+import net.mcreator.atmosphere.block.HornaLogBlock;
+import net.mcreator.atmosphere.block.HornaLeavesBlock;
+import net.mcreator.atmosphere.block.HornaFenceGateBlock;
+import net.mcreator.atmosphere.block.HornaFenceBlock;
+import net.mcreator.atmosphere.block.HornaDoorBlock;
+import net.mcreator.atmosphere.block.HornaButtonBlock;
 import net.mcreator.atmosphere.block.GustyGrassBlock;
+import net.mcreator.atmosphere.block.FrozenIceBlockBlock;
+import net.mcreator.atmosphere.block.FrostedShatterStoneBlock;
+import net.mcreator.atmosphere.block.FrostedIceBlockBlock;
+import net.mcreator.atmosphere.block.FrostedHumusSoilBlock;
+import net.mcreator.atmosphere.block.FrostedCobbledShatterStoneBlock;
 import net.mcreator.atmosphere.block.FloweringZorroLeavesBlock;
 import net.mcreator.atmosphere.block.DustyGlowstoneBlock;
 import net.mcreator.atmosphere.block.CobbledShatterStoneBlock;
@@ -101,4 +118,23 @@ public class AtmosphereModBlocks {
 			() -> new FloweringZorroLeavesBlock());
 	public static final RegistryObject<Block> ZORRO_DOOR = REGISTRY.register("zorro_door", () -> new ZorroDoorBlock());
 	public static final RegistryObject<Block> ZORRO_TRAPDOOR = REGISTRY.register("zorro_trapdoor", () -> new ZorroTrapdoorBlock());
+	public static final RegistryObject<Block> HORNA_WOOD = REGISTRY.register("horna_wood", () -> new HornaWoodBlock());
+	public static final RegistryObject<Block> HORNA_LOG = REGISTRY.register("horna_log", () -> new HornaLogBlock());
+	public static final RegistryObject<Block> HORNA_PLANKS = REGISTRY.register("horna_planks", () -> new HornaPlanksBlock());
+	public static final RegistryObject<Block> HORNA_LEAVES = REGISTRY.register("horna_leaves", () -> new HornaLeavesBlock());
+	public static final RegistryObject<Block> HORNA_STAIRS = REGISTRY.register("horna_stairs", () -> new HornaStairsBlock());
+	public static final RegistryObject<Block> HORNA_SLAB = REGISTRY.register("horna_slab", () -> new HornaSlabBlock());
+	public static final RegistryObject<Block> HORNA_FENCE = REGISTRY.register("horna_fence", () -> new HornaFenceBlock());
+	public static final RegistryObject<Block> HORNA_FENCE_GATE = REGISTRY.register("horna_fence_gate", () -> new HornaFenceGateBlock());
+	public static final RegistryObject<Block> HORNA_PRESSURE_PLATE = REGISTRY.register("horna_pressure_plate", () -> new HornaPressurePlateBlock());
+	public static final RegistryObject<Block> HORNA_BUTTON = REGISTRY.register("horna_button", () -> new HornaButtonBlock());
+	public static final RegistryObject<Block> HORNA_DOOR = REGISTRY.register("horna_door", () -> new HornaDoorBlock());
+	public static final RegistryObject<Block> HORNA_TRAPDOOR = REGISTRY.register("horna_trapdoor", () -> new HornaTrapdoorBlock());
+	public static final RegistryObject<Block> FROSTED_HUMUS_SOIL = REGISTRY.register("frosted_humus_soil", () -> new FrostedHumusSoilBlock());
+	public static final RegistryObject<Block> FROSTED_SHATTER_STONE = REGISTRY.register("frosted_shatter_stone",
+			() -> new FrostedShatterStoneBlock());
+	public static final RegistryObject<Block> FROSTED_COBBLED_SHATTER_STONE = REGISTRY.register("frosted_cobbled_shatter_stone",
+			() -> new FrostedCobbledShatterStoneBlock());
+	public static final RegistryObject<Block> FROSTED_ICE_BLOCK = REGISTRY.register("frosted_ice_block", () -> new FrostedIceBlockBlock());
+	public static final RegistryObject<Block> FROZEN_ICE_BLOCK = REGISTRY.register("frozen_ice_block", () -> new FrozenIceBlockBlock());
 }
