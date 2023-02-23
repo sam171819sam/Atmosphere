@@ -30,6 +30,7 @@ import net.mcreator.atmosphere.block.RawLuminumBlockBlock;
 import net.mcreator.atmosphere.block.LuminumOreBlock;
 import net.mcreator.atmosphere.block.LuminumDustBlock;
 import net.mcreator.atmosphere.block.LuminumBlockBlock;
+import net.mcreator.atmosphere.block.LuminescentLodeBlock;
 import net.mcreator.atmosphere.block.HumusSoilBlock;
 import net.mcreator.atmosphere.block.HumusGrassBlockBlock;
 import net.mcreator.atmosphere.block.HornaWoodBlock;
@@ -122,6 +123,7 @@ public class AtmosphereModBlocks {
 	public static final RegistryObject<Block> HORNA_LOG = REGISTRY.register("horna_log", () -> new HornaLogBlock());
 	public static final RegistryObject<Block> HORNA_PLANKS = REGISTRY.register("horna_planks", () -> new HornaPlanksBlock());
 	public static final RegistryObject<Block> HORNA_LEAVES = REGISTRY.register("horna_leaves", () -> new HornaLeavesBlock());
+	public static final RegistryObject<Block> LUMINESCENT_LODE = REGISTRY.register("luminescent_lode", () -> new LuminescentLodeBlock());
 	public static final RegistryObject<Block> HORNA_STAIRS = REGISTRY.register("horna_stairs", () -> new HornaStairsBlock());
 	public static final RegistryObject<Block> HORNA_SLAB = REGISTRY.register("horna_slab", () -> new HornaSlabBlock());
 	public static final RegistryObject<Block> HORNA_FENCE = REGISTRY.register("horna_fence", () -> new HornaFenceBlock());

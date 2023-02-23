@@ -20,6 +20,7 @@ import net.mcreator.atmosphere.item.SecureAmuletItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
 import net.mcreator.atmosphere.item.FireAmuletItem;
+import net.mcreator.atmosphere.item.CroakerSpittleItem;
 import net.mcreator.atmosphere.item.AtmosphereDimensionItem;
 import net.mcreator.atmosphere.AtmosphereMod;
 
@@ -93,10 +94,12 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> HORNA_LOG = block(AtmosphereModBlocks.HORNA_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_PLANKS = block(AtmosphereModBlocks.HORNA_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_LEAVES = block(AtmosphereModBlocks.HORNA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LUMINESCENT_LODE = block(AtmosphereModBlocks.LUMINESCENT_LODE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_STAIRS = block(AtmosphereModBlocks.HORNA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_SLAB = block(AtmosphereModBlocks.HORNA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_FENCE = block(AtmosphereModBlocks.HORNA_FENCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> HORNA_FENCE_GATE = block(AtmosphereModBlocks.HORNA_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
 	public static final RegistryObject<Item> HORNA_PRESSURE_PLATE = block(AtmosphereModBlocks.HORNA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> HORNA_BUTTON = block(AtmosphereModBlocks.HORNA_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_DOOR = doubleBlock(AtmosphereModBlocks.HORNA_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
