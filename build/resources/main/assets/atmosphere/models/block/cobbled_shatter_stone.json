@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "atmosphere:blocks/cobbled_darkstone",
-    "up": "atmosphere:blocks/cobbled_darkstone",
-    "north": "atmosphere:blocks/cobbled_darkstone",
-    "east": "atmosphere:blocks/cobbled_darkstone",
-    "south": "atmosphere:blocks/cobbled_darkstone",
-    "west": "atmosphere:blocks/cobbled_darkstone",
-    "particle": "atmosphere:blocks/cobbled_darkstone"
+    "down": "atmosphere:blocks/cobbled_shatter_stone",
+    "up": "atmosphere:blocks/cobbled_shatter_stone",
+    "north": "atmosphere:blocks/cobbled_shatter_stone",
+    "east": "atmosphere:blocks/cobbled_shatter_stone",
+    "south": "atmosphere:blocks/cobbled_shatter_stone",
+    "west": "atmosphere:blocks/cobbled_shatter_stone",
+    "particle": "atmosphere:blocks/cobbled_shatter_stone"
   },
   "render_type": "solid"
 }

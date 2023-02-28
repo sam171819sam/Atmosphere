@@ -1,8 +1,8 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.atmosphere.item.ScrollOnAStickItem;
+import javax.annotation.Nullable;
 
 public class ScrollOnAStickRightclickedProcedure {
 	public static void execute(ItemStack itemstack) {

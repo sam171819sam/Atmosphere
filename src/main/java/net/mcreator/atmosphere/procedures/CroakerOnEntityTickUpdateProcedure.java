@@ -1,19 +1,8 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraft.world.scores.criteria.ObjectiveCriteria;
-import net.minecraft.world.scores.Scoreboard;
-import net.minecraft.world.scores.Objective;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
-import net.minecraft.network.chat.Component;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.atmosphere.init.AtmosphereModItems;
-import net.mcreator.atmosphere.AtmosphereMod;
+import javax.annotation.Nullable;
 
 public class CroakerOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

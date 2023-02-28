@@ -91,9 +91,28 @@ public class AtmosphereModItems {
 			AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_DOOR = doubleBlock(AtmosphereModBlocks.ZORRO_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ZORRO_TRAPDOOR = block(AtmosphereModBlocks.ZORRO_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_WOOD = block(AtmosphereModBlocks.HORNA_WOOD, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_LOG = block(AtmosphereModBlocks.HORNA_LOG, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_PLANKS = block(AtmosphereModBlocks.HORNA_PLANKS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> LUMINESCENT_LODE = block(AtmosphereModBlocks.LUMINESCENT_LODE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_LEAVES = block(AtmosphereModBlocks.HORNA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HORNA_STAIRS = block(AtmosphereModBlocks.HORNA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_SLAB = block(AtmosphereModBlocks.HORNA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_FENCE = block(AtmosphereModBlocks.HORNA_FENCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
+	public static final RegistryObject<Item> HORNA_FENCE_GATE = block(AtmosphereModBlocks.HORNA_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> HORNA_PRESSURE_PLATE = block(AtmosphereModBlocks.HORNA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> HORNA_BUTTON = block(AtmosphereModBlocks.HORNA_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> SCROLL_ON_A_STICK = REGISTRY.register("scroll_on_a_stick", () -> new ScrollOnAStickItem());
+	public static final RegistryObject<Item> HORNA_DOOR = doubleBlock(AtmosphereModBlocks.HORNA_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HORNA_TRAPDOOR = block(AtmosphereModBlocks.HORNA_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FROSTED_HUMUS_SOIL = block(AtmosphereModBlocks.FROSTED_HUMUS_SOIL, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FROSTED_SHATTER_STONE = block(AtmosphereModBlocks.FROSTED_SHATTER_STONE,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FROSTED_COBBLED_SHATTER_STONE = block(AtmosphereModBlocks.FROSTED_COBBLED_SHATTER_STONE,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FROSTED_ICE_BLOCK = block(AtmosphereModBlocks.FROSTED_ICE_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> FROZEN_ICE_BLOCK = block(AtmosphereModBlocks.FROZEN_ICE_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

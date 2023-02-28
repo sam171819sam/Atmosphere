@@ -1,10 +1,8 @@
 package net.mcreator.atmosphere.procedures;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.atmosphere.entity.FireburstEntity;
+import javax.annotation.Nullable;
 
 /**
 public static void execute(

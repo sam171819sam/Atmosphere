@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "atmosphere:luminum_dust"
+    "atmosphere:luminum_dust",
+    "atmosphere:frosted_humus_soil"
   ]
 }
