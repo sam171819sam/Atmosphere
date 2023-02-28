@@ -19,8 +19,10 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.atmosphere.entity.WindcallerEntity;
 import net.mcreator.atmosphere.entity.WindEntity;
 import net.mcreator.atmosphere.entity.SquallEntity;
+import net.mcreator.atmosphere.entity.SecureShieldEntity;
 import net.mcreator.atmosphere.entity.SaintEntity;
 import net.mcreator.atmosphere.entity.RayvenEntity;
+import net.mcreator.atmosphere.entity.FireburstEntity;
 import net.mcreator.atmosphere.entity.CroakerEntity;
 import net.mcreator.atmosphere.entity.BalloonFlyEntity;
 import net.mcreator.atmosphere.AtmosphereMod;
@@ -58,7 +60,15 @@ public class AtmosphereModEntities {
 					.sized(1.5999999999999999f, 0.9f));
 	public static final RegistryObject<EntityType<WindEntity>> WIND = register("wind",
 			EntityType.Builder.<WindEntity>of(WindEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(WindEntity::new).fireImmune().sized(6f, 3f));
+					.setUpdateInterval(3).setCustomClientFactory(WindEntity::new).fireImmune().sized(0.1f, 0.1f));
+	public static final RegistryObject<EntityType<FireburstEntity>> FIREBURST = register("fireburst",
+			EntityType.Builder.<FireburstEntity>of(FireburstEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireburstEntity::new)
+
+					.sized(0.1f, 0.1f));
+	public static final RegistryObject<EntityType<SecureShieldEntity>> SECURE_SHIELD = register("secure_shield",
+			EntityType.Builder.<SecureShieldEntity>of(SecureShieldEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SecureShieldEntity::new).fireImmune().sized(0.1f, 0.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -74,6 +84,8 @@ public class AtmosphereModEntities {
 			SquallEntity.init();
 			CroakerEntity.init();
 			WindEntity.init();
+			FireburstEntity.init();
+			SecureShieldEntity.init();
 		});
 	}
 
@@ -86,5 +98,7 @@ public class AtmosphereModEntities {
 		event.put(SQUALL.get(), SquallEntity.createAttributes().build());
 		event.put(CROAKER.get(), CroakerEntity.createAttributes().build());
 		event.put(WIND.get(), WindEntity.createAttributes().build());
+		event.put(FIREBURST.get(), FireburstEntity.createAttributes().build());
+		event.put(SECURE_SHIELD.get(), SecureShieldEntity.createAttributes().build());
 	}
 }

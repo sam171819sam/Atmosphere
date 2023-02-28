@@ -13,7 +13,7 @@ public class BlosoreaVinesUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == AtmosphereModBlocks.BLOSOREA_VINES.get()) {
 			if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.AIR) {
-				AtmosphereMod.queueServerWork(Mth.nextInt(RandomSource.create(), 1300, 5000), () -> {
+				AtmosphereMod.queueServerWork(Mth.nextInt(RandomSource.create(), 2000, 10000), () -> {
 					world.setBlock(new BlockPos(x, y - 1, z), AtmosphereModBlocks.BLOSOREA_VINES.get().defaultBlockState(), 3);
 				});
 			}

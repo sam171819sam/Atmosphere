@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atmosphere.item.SoftAmuletItem;
 import net.mcreator.atmosphere.item.SecureAmuletItem;
+import net.mcreator.atmosphere.item.ScrollOnAStickItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
 import net.mcreator.atmosphere.item.FireAmuletItem;
@@ -92,6 +93,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> ZORRO_TRAPDOOR = block(AtmosphereModBlocks.ZORRO_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> LUMINESCENT_LODE = block(AtmosphereModBlocks.LUMINESCENT_LODE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
+	public static final RegistryObject<Item> SCROLL_ON_A_STICK = REGISTRY.register("scroll_on_a_stick", () -> new ScrollOnAStickItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
