@@ -24,5 +24,7 @@ public class WindOnEntityTickUpdateProcedure {
 				}.compareDistOf((entity.getX()), (entity.getY()), (entity.getZ()))).findFirst().orElse(null);
 		if (WindTester instanceof LivingEntity _entity)
 			_entity.hurt(new DamageSource("blow").bypassArmor(), 8);
+		WindTester.setDeltaMovement(
+				new Vec3((WindTester.getDeltaMovement().x() * 2), (WindTester.getDeltaMovement().y()), (WindTester.getDeltaMovement().z() * 2)));
 	}
 }

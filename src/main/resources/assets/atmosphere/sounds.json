@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "fire_burst": {
+    "category": "neutral",
+    "subtitle": "subtitles.fire_burst",
+    "sounds": [
+      {
+        "name": "atmosphere:fire_burst",
+        "stream": false
+      }
+    ]
   }
 }

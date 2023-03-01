@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "atmosphere:stardust",
+          "name": "atmosphere:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {
@@ -46,7 +46,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "atmosphere:stardust_sand",
+          "name": "atmosphere:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {

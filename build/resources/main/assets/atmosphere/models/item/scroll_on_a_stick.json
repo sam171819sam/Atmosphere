@@ -1,0 +1,6 @@
+{
+  "parent": "atmosphere:custom/scroll_on_a_stick",
+  "textures": {
+    "layer0": "atmosphere:items/scroll_on_a_stick"
+  }
+}

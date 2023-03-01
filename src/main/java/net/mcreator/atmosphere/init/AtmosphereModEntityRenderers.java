@@ -12,8 +12,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.atmosphere.client.renderer.WindcallerRenderer;
 import net.mcreator.atmosphere.client.renderer.WindRenderer;
 import net.mcreator.atmosphere.client.renderer.SquallRenderer;
+import net.mcreator.atmosphere.client.renderer.SecureShieldRenderer;
 import net.mcreator.atmosphere.client.renderer.SaintRenderer;
 import net.mcreator.atmosphere.client.renderer.RayvenRenderer;
+import net.mcreator.atmosphere.client.renderer.FireburstRenderer;
 import net.mcreator.atmosphere.client.renderer.CroakerRenderer;
 import net.mcreator.atmosphere.client.renderer.BalloonFlyRenderer;
 
@@ -28,5 +30,7 @@ public class AtmosphereModEntityRenderers {
 		event.registerEntityRenderer(AtmosphereModEntities.SQUALL.get(), SquallRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.CROAKER.get(), CroakerRenderer::new);
 		event.registerEntityRenderer(AtmosphereModEntities.WIND.get(), WindRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.FIREBURST.get(), FireburstRenderer::new);
+		event.registerEntityRenderer(AtmosphereModEntities.SECURE_SHIELD.get(), SecureShieldRenderer::new);
 	}
 }

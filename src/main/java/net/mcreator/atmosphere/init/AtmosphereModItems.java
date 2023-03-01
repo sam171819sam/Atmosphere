@@ -23,6 +23,7 @@ import net.mcreator.atmosphere.item.ShatterPickaxeItem;
 import net.mcreator.atmosphere.item.ShatterHoeItem;
 import net.mcreator.atmosphere.item.ShatterAxeItem;
 import net.mcreator.atmosphere.item.SecureAmuletItem;
+import net.mcreator.atmosphere.item.ScrollOnAStickItem;
 import net.mcreator.atmosphere.item.SaintRibItem;
 import net.mcreator.atmosphere.item.SaintAItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
@@ -108,6 +109,7 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> CROAKER_SPITTLE = REGISTRY.register("croaker_spittle", () -> new CroakerSpittleItem());
 	public static final RegistryObject<Item> HORNA_PRESSURE_PLATE = block(AtmosphereModBlocks.HORNA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> HORNA_BUTTON = block(AtmosphereModBlocks.HORNA_BUTTON, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SCROLL_ON_A_STICK = REGISTRY.register("scroll_on_a_stick", () -> new ScrollOnAStickItem());
 	public static final RegistryObject<Item> HORNA_DOOR = doubleBlock(AtmosphereModBlocks.HORNA_DOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> HORNA_TRAPDOOR = block(AtmosphereModBlocks.HORNA_TRAPDOOR, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> FROSTED_HUMUS_SOIL = block(AtmosphereModBlocks.FROSTED_HUMUS_SOIL, AtmosphereModTabs.TAB_ATMOSPHERE);
