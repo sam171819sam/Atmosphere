@@ -130,15 +130,6 @@
     "blocksToReplace": [
       {
         "value": "CUSTOM:ShatterStone"
-      },
-      {
-        "value": "CUSTOM:LuminumDust"
-      },
-      {
-        "value": "CUSTOM:RawLuminumBlock"
-      },
-      {
-        "value": "CUSTOM:DustyGlowstone"
       }
     ],
     "generationShape": "TRIANGLE",

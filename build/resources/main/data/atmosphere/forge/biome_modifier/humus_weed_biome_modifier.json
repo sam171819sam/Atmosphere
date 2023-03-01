@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "atmosphere:wavy_meadow",
+    "atmosphere:stardust_vally",
+    "atmosphere:petal_paradise",
+    "atmosphere:zorro_forest",
+    "atmosphere:dusty_luma"
+  ],
+  "features": "atmosphere:humus_weed",
+  "step": "vegetal_decoration"
+}

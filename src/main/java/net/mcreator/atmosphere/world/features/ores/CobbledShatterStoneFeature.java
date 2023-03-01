@@ -35,14 +35,8 @@ public class CobbledShatterStoneFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CobbledShatterStoneFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("atmosphere:cobbled_shatter_stone", FEATURE,
-				new OreConfiguration(List.of(
-						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.SHATTER_STONE.get().defaultBlockState()),
-								AtmosphereModBlocks.COBBLED_SHATTER_STONE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.LUMINUM_DUST.get().defaultBlockState()),
-								AtmosphereModBlocks.COBBLED_SHATTER_STONE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.RAW_LUMINUM_BLOCK.get().defaultBlockState()),
-								AtmosphereModBlocks.COBBLED_SHATTER_STONE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.DUSTY_GLOWSTONE.get().defaultBlockState()),
+				new OreConfiguration(
+						List.of(OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.SHATTER_STONE.get().defaultBlockState()),
 								AtmosphereModBlocks.COBBLED_SHATTER_STONE.get().defaultBlockState())),
 						18));
 		PLACED_FEATURE = PlacementUtils.register("atmosphere:cobbled_shatter_stone", CONFIGURED_FEATURE,

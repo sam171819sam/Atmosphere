@@ -133,15 +133,6 @@
     ],
     "blocksToReplace": [
       {
-        "value": "CUSTOM:RawLuminumBlock"
-      },
-      {
-        "value": "CUSTOM:LuminumDust"
-      },
-      {
-        "value": "CUSTOM:DustyGlowstone"
-      },
-      {
         "value": "CUSTOM:CobbledShatterStone"
       }
     ],

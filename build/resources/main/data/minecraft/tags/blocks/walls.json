@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "atmosphere:vanillya_wall",
+    "atmosphere:vanillya_brick_wall"
+  ]
 }

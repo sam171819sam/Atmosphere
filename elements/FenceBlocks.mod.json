@@ -10,6 +10,18 @@
       },
       {
         "value": "CUSTOM:ZorroFence"
+      },
+      {
+        "value": "CUSTOM:ZorroFenceGate"
+      },
+      {
+        "value": "CUSTOM:HornaFenceGate"
+      },
+      {
+        "value": "CUSTOM:HornaFence"
+      },
+      {
+        "value": "CUSTOM:BoreaFenceGate"
       }
     ],
     "functions": [],

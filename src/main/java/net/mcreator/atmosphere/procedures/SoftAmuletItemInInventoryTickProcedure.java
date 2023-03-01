@@ -1,8 +1,18 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
-import javax.annotation.Nullable;
+import net.mcreator.atmosphere.init.AtmosphereModItems;
 
 public class SoftAmuletItemInInventoryTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

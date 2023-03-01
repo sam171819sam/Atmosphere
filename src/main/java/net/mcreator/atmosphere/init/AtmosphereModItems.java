@@ -15,8 +15,16 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.atmosphere.item.StardustItem;
 import net.mcreator.atmosphere.item.SoftAmuletItem;
+import net.mcreator.atmosphere.item.ShatterSwordItem;
+import net.mcreator.atmosphere.item.ShatterShovelItem;
+import net.mcreator.atmosphere.item.ShatterPickaxeItem;
+import net.mcreator.atmosphere.item.ShatterHoeItem;
+import net.mcreator.atmosphere.item.ShatterAxeItem;
 import net.mcreator.atmosphere.item.SecureAmuletItem;
+import net.mcreator.atmosphere.item.SaintRibItem;
+import net.mcreator.atmosphere.item.SaintAItem;
 import net.mcreator.atmosphere.item.RawLuminumItem;
 import net.mcreator.atmosphere.item.LuminumIngotItem;
 import net.mcreator.atmosphere.item.FireAmuletItem;
@@ -48,8 +56,6 @@ public class AtmosphereModItems {
 	public static final RegistryObject<Item> SECURE_AMULET = REGISTRY.register("secure_amulet", () -> new SecureAmuletItem());
 	public static final RegistryObject<Item> GUSTY_GRASS = block(AtmosphereModBlocks.GUSTY_GRASS, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> ATMOSPHERE_DIMENSION = REGISTRY.register("atmosphere_dimension", () -> new AtmosphereDimensionItem());
-	public static final RegistryObject<Item> LUMINUM_DUST = block(AtmosphereModBlocks.LUMINUM_DUST, AtmosphereModTabs.TAB_ATMOSPHERE);
-	public static final RegistryObject<Item> DUSTY_GLOWSTONE = block(AtmosphereModBlocks.DUSTY_GLOWSTONE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> LUMINUM_ORE = block(AtmosphereModBlocks.LUMINUM_ORE, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BLOSOREA_FLOWER = block(AtmosphereModBlocks.BLOSOREA_FLOWER, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> BOREA_WOOD = block(AtmosphereModBlocks.BOREA_WOOD, AtmosphereModTabs.TAB_ATMOSPHERE);
@@ -111,6 +117,32 @@ public class AtmosphereModItems {
 			AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> FROSTED_ICE_BLOCK = block(AtmosphereModBlocks.FROSTED_ICE_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
 	public static final RegistryObject<Item> FROZEN_ICE_BLOCK = block(AtmosphereModBlocks.FROZEN_ICE_BLOCK, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SAINT_A_CHESTPLATE = REGISTRY.register("saint_a_chestplate", () -> new SaintAItem.Chestplate());
+	public static final RegistryObject<Item> SAINT_RIB = REGISTRY.register("saint_rib", () -> new SaintRibItem());
+	public static final RegistryObject<Item> COBBLED_SHATTER_STONE_STAIRS = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE_STAIRS,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> COBBLED_SHATTER_STONE_SLAB = block(AtmosphereModBlocks.COBBLED_SHATTER_STONE_SLAB,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SHATTER_PICKAXE = REGISTRY.register("shatter_pickaxe", () -> new ShatterPickaxeItem());
+	public static final RegistryObject<Item> SHATTER_AXE = REGISTRY.register("shatter_axe", () -> new ShatterAxeItem());
+	public static final RegistryObject<Item> SHATTER_SWORD = REGISTRY.register("shatter_sword", () -> new ShatterSwordItem());
+	public static final RegistryObject<Item> SHATTER_SHOVEL = REGISTRY.register("shatter_shovel", () -> new ShatterShovelItem());
+	public static final RegistryObject<Item> SHATTER_HOE = REGISTRY.register("shatter_hoe", () -> new ShatterHoeItem());
+	public static final RegistryObject<Item> STARDUST_SAND = block(AtmosphereModBlocks.STARDUST_SAND, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> SPARKLING_STARSTONE = block(AtmosphereModBlocks.SPARKLING_STARSTONE, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> STARDUST = REGISTRY.register("stardust", () -> new StardustItem());
+	public static final RegistryObject<Item> VANILLYA = block(AtmosphereModBlocks.VANILLYA, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_BRICKS = block(AtmosphereModBlocks.VANILLYA_BRICKS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_PILLAR = block(AtmosphereModBlocks.VANILLYA_PILLAR, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_STAIRS = block(AtmosphereModBlocks.VANILLYA_STAIRS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_SLAB = block(AtmosphereModBlocks.VANILLYA_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_BRICK_STAIRS = block(AtmosphereModBlocks.VANILLYA_BRICK_STAIRS,
+			AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_BRICK_SLAB = block(AtmosphereModBlocks.VANILLYA_BRICK_SLAB, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_WALL = block(AtmosphereModBlocks.VANILLYA_WALL, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> VANILLYA_BRICK_WALL = block(AtmosphereModBlocks.VANILLYA_BRICK_WALL, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> ZORRO_MOSS = block(AtmosphereModBlocks.ZORRO_MOSS, AtmosphereModTabs.TAB_ATMOSPHERE);
+	public static final RegistryObject<Item> HUMUS_WEED = block(AtmosphereModBlocks.HUMUS_WEED, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -36,8 +36,6 @@ public class RawLuminumBlockFeature extends OreFeature {
 		FEATURE = new RawLuminumBlockFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("atmosphere:raw_luminum_block", FEATURE,
 				new OreConfiguration(List.of(
-						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.DUSTY_GLOWSTONE.get().defaultBlockState()),
-								AtmosphereModBlocks.RAW_LUMINUM_BLOCK.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.SHATTER_STONE.get().defaultBlockState()),
 								AtmosphereModBlocks.RAW_LUMINUM_BLOCK.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(AtmosphereModBlocks.LUMINUM_ORE.get().defaultBlockState()),
