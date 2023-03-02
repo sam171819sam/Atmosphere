@@ -9,11 +9,22 @@
     "atmosphere:shatter_stone",
     "atmosphere:cobbled_shatter_stone",
     "atmosphere:gusty_grass",
-    "atmosphere:dusty_glowstone",
     "atmosphere:luminum_ore",
     "atmosphere:frosted_shatter_stone",
     "atmosphere:frosted_cobbled_shatter_stone",
     "atmosphere:frosted_ice_block",
-    "atmosphere:frozen_ice_block"
+    "atmosphere:frozen_ice_block",
+    "atmosphere:cobbled_shatter_stone_stairs",
+    "atmosphere:cobbled_shatter_stone_slab",
+    "atmosphere:sparkling_starstone",
+    "atmosphere:vanillya",
+    "atmosphere:vanillya_bricks",
+    "atmosphere:vanillya_pillar",
+    "atmosphere:vanillya_stairs",
+    "atmosphere:vanillya_slab",
+    "atmosphere:vanillya_brick_stairs",
+    "atmosphere:vanillya_brick_slab",
+    "atmosphere:vanillya_wall",
+    "atmosphere:vanillya_brick_wall"
   ]
 }

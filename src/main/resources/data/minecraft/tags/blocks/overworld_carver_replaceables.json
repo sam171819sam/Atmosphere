@@ -5,7 +5,6 @@
     "atmosphere:gusty_grass",
     "atmosphere:humus_grass_block",
     "atmosphere:humus_soil",
-    "atmosphere:luminum_dust",
-    "atmosphere:dusty_glowstone"
+    "atmosphere:deleted_mod_element"
   ]
 }

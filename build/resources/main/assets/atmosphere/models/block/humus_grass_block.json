@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "block/grass_block",
   "textures": {
-    "down": "atmosphere:blocks/humus_soil",
-    "up": "atmosphere:blocks/humus_grass_block_top",
-    "north": "atmosphere:blocks/humus_grass_block",
-    "east": "atmosphere:blocks/humus_grass_block",
-    "south": "atmosphere:blocks/humus_grass_block",
-    "west": "atmosphere:blocks/humus_grass_block",
+    "bottom": "atmosphere:blocks/humus_soil",
+    "top": "atmosphere:blocks/humus_grass_block_toptest",
+    "side": "atmosphere:blocks/humus_grass_block",
+    "overlay": "atmosphere:blocks/humus_grass_layer",
     "particle": "atmosphere:blocks/humus_soil"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

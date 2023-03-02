@@ -33,6 +33,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.atmosphere.init.AtmosphereModTabs;
 import net.mcreator.atmosphere.init.AtmosphereModSounds;
+import net.mcreator.atmosphere.init.AtmosphereModParticleTypes;
 import net.mcreator.atmosphere.init.AtmosphereModMenus;
 import net.mcreator.atmosphere.init.AtmosphereModItems;
 import net.mcreator.atmosphere.init.AtmosphereModFeatures;
@@ -64,6 +65,7 @@ public class AtmosphereMod {
 		AtmosphereModBlockEntities.REGISTRY.register(bus);
 		AtmosphereModFeatures.REGISTRY.register(bus);
 
+		AtmosphereModParticleTypes.REGISTRY.register(bus);
 		AtmosphereModMenus.REGISTRY.register(bus);
 		AtmosphereModBiomes.REGISTRY.register(bus);
 		GeckoLib.initialize();

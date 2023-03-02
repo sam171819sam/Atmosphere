@@ -303,22 +303,6 @@
       "path": "~/Biomes"
     },
     {
-      "name": "DustyGlowstone",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dusty_glowstone"
-    },
-    {
-      "name": "LuminumDust",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminum_dust"
-    },
-    {
       "name": "LuminumOre",
       "type": "block",
       "sortid": 45,
@@ -2117,6 +2101,355 @@
       "locked_code": false,
       "registry_name": "horna_door",
       "path": "~/Biomes/HornaForest"
+    },
+    {
+      "name": "SaintL",
+      "type": "loottable",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_l",
+      "path": "~/Entitys/LootTable"
+    },
+    {
+      "name": "ShatterSword",
+      "type": "tool",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_sword"
+    },
+    {
+      "name": "SRC",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "src",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "StardustSandd",
+      "type": "loottable",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_sandd",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "CobbledShatterStoneStairs",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone_stairs"
+    },
+    {
+      "name": "ShatterPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_pickaxe_recipe"
+    },
+    {
+      "name": "SaintA",
+      "type": "armor",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_a",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "CSStoneSlab",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs_stone_slab"
+    },
+    {
+      "name": "CSSS",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "csss"
+    },
+    {
+      "name": "CSSStairs",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "css_stairs"
+    },
+    {
+      "name": "VanillyaBrickStairs",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_brick_stairs",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "ShatterSwordRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_sword_recipe"
+    },
+    {
+      "name": "VanillyaPillar",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_pillar",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "ShatterHoeRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_hoe_recipe"
+    },
+    {
+      "name": "ZorroMoss",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorro_moss",
+      "path": "~/Biomes/ZorroForest"
+    },
+    {
+      "name": "Vanillya",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "SR",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sr",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "HumusWeed",
+      "type": "plant",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humus_weed",
+      "path": "~/Biomes/PetalParadise"
+    },
+    {
+      "name": "VanillyaBrickSlab",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_brick_slab",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "CSSSlab",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "css_slab"
+    },
+    {
+      "name": "ShatterAxe",
+      "type": "tool",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_axe"
+    },
+    {
+      "name": "SaintRib",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_rib",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "VanillyaBricks",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_bricks",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "VanillyaSlab",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_slab",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "SparklingStarstone",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_starstone",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "StardustVally",
+      "type": "biome",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_vally",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "ShatterShovelRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_shovel_recipe"
+    },
+    {
+      "name": "ShatterPickaxe",
+      "type": "tool",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_pickaxe"
+    },
+    {
+      "name": "ShatterAxeRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_axe_recipe"
+    },
+    {
+      "name": "ShatterHoe",
+      "type": "tool",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_hoe"
+    },
+    {
+      "name": "SSS",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sss"
+    },
+    {
+      "name": "VanillyaBrickWall",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_brick_wall",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "StardustSand",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_sand",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "Stardust",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "VanillyaWall",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_wall",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "ShatterShovel",
+      "type": "tool",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shatter_shovel"
+    },
+    {
+      "name": "Stardust1",
+      "type": "particle",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_1",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "VanillyaStairs",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillya_stairs",
+      "path": "~/Biomes/StardustVally"
+    },
+    {
+      "name": "CobbledShatterStoneSlab",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_shatter_stone_slab"
+    },
+    {
+      "name": "SparklingStarstonee",
+      "type": "loottable",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_starstonee",
+      "path": "~/Biomes/StardustVally"
     }
   ],
   "variable_elements": [
@@ -2150,101 +2483,79 @@
       "block.atmosphere.borea_slab": "Borea Slab",
       "entity.atmosphere.croaker": "Croaker",
       "biome.atmosphere.zorro_forest": "Zorro Forest",
-      "block.atmosphere.horna_fence": "Horna Fence",
+      "biome.atmosphere.dusty_luma": "Dusty Luma",
+      "block.atmosphere.borea_door": "Borea Door",
       "block.atmosphere.zorro_pressure_plate": "Zorro Pressure Plate",
+      "block.atmosphere.zorro_slab": "Zorro Slab",
+      "block.atmosphere.zorro_stairs": "Zorro Stairs",
+      "entity.atmosphere.windcaller": "Windcaller",
       "block.atmosphere.borea_leaves": "Borea Leaves",
       "block.atmosphere.witch_crushing_stone": "Witch Crushing Stone",
       "block.atmosphere.borea_fence": "Borea Fence",
+      "block.atmosphere.zorro_fence": "Zorro Fence",
+      "entity.atmosphere.rayven": "Rayven",
       "block.atmosphere.luminum_ore": "Luminum Ore",
-      "block.atmosphere.frozen_ice_block": "Frozen Ice Block",
-      "block.atmosphere.horna_fence_gate": "Horna Fence Gate",
-      "entity.atmosphere.secure_shield": "Secure Shield",
+      "advancements.abrakadabra.title": "Abrakadabra",
+      "block.atmosphere.zorro_button": "Zorro Button",
       "block.atmosphere.zorro_wood": "Zorro Wood",
-      "block.atmosphere.frosted_cobbled_shatter_stone": "Cobbled Frosted Shatter Stone",
+      "item.atmosphere.fire_amulet": "Fire Amulet",
       "biome.atmosphere.wavy_meadow": "Wavy Meadow",
-      "block.atmosphere.horna_pressure_plate": "Horna Pressure Plate",
       "block.atmosphere.borea_stairs": "Borea Stairs",
+      "block.atmosphere.witch_pool": "Witch Pool",
+      "entity.atmosphere.wind": "Wind",
       "block.atmosphere.zorro_door": "Zorro Door",
+      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
       "block.atmosphere.borea_log": "Borea Log",
+      "item.atmosphere.atmosphere_dimension": "Atmosphere Dimension Portal Igniter",
+      "item.atmosphere.croaker_spittle": "Croaker Spittle",
+      "block.atmosphere.flowering_zorro_leaves": "Flowering Zorro Leaves",
+      "block.atmosphere.borea_planks": "Borea Planks",
       "block.atmosphere.zorro_fence_gate": "Zorro Fence Gate",
-      "block.atmosphere.horna_trapdoor": "Horna Trapdoor",
-      "block.atmosphere.frosted_ice_block": "Frosted Ice Block",
+      "block.atmosphere.borea_button": "Borea Button",
+      "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
+      "subtitles.fire_burst": "Strong Attack bursted",
+      "biome.atmosphere.petal_paradise": "Petal Paradise",
       "itemGroup.tabatmuspehere": "Atmuspehere",
       "death.attack.blow.player": "%1$s got blowed away",
+      "itemGroup.tabatmosphere": "Atmosphere",
+      "subtitles.death_whistle": "Death",
       "entity.atmosphere.balloon_fly": "BalloonFly",
-      "entity.atmosphere.fireburst": "Fireburst",
+      "block.atmosphere.luminescent_lode": "Luminescent Lode",
+      "block.atmosphere.zorro_trapdoor": "Zorro Trapdoor",
       "block.atmosphere.blosorea_flower": "Blosorea Flower",
       "block.atmosphere.luminum_block": "Luminum Block",
       "block.atmosphere.borea_fence_gate": "Borea Fence Gate",
       "item.atmosphere.balloon_fly_spawn_egg": "BalloonFly Spawn Egg",
       "block.atmosphere.humus_grass_block": "Humus Grass Block",
-      "block.atmosphere.horna_slab": "Horna Slab",
       "death.attack.blow": "%1$s got blowed away",
-      "item.atmosphere.secure_shield_spawn_egg": "Secure Shield Spawn Egg",
+      "block.atmosphere.borea_pressure_plate": "Borea Pressure Plate",
+      "item.atmosphere.windcaller_spawn_egg": "Windcaller Spawn Egg",
       "block.atmosphere.zorro_planks": "Zorro Planks",
+      "block.atmosphere.gusty_grass": "Gusty Grass",
       "block.atmosphere.dusty_glowstone": "Dusty Glowstone",
+      "block.atmosphere.zorro_log": "Zorro Log",
       "entity.atmosphere.squall": "Squall",
       "block.atmosphere.humus_soil": "Humus Soil",
       "item.atmosphere.squall_spawn_egg": "Squall Spawn Egg",
       "advancements.abrakadabra.descr": "Place a witch pool.",
+      "entity.atmosphere.saint": "Saint",
       "item.atmosphere.wind_spawn_egg": "Wind Spawn Egg",
       "block.atmosphere.blosorea_vines": "Blosorea Vines",
       "block.atmosphere.luminum_dust": "Luminum Dust",
-      "block.atmosphere.horna_planks": "Horna Planks",
+      "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
       "block.atmosphere.zorro_leaves": "Zorro Leaves",
+      "item.atmosphere.raw_luminum": "Raw Luminum",
+      "item.atmosphere.soft_amulet": "Soft Amulet",
+      "death.attack.fireburst": "%1$s got bursted away by a mythic power",
       "block.atmosphere.shatter_stone": "Shatter Stone",
       "item.atmosphere.rayven_spawn_egg": "Rayven Spawn Egg",
       "item.atmosphere.secure_amulet": "Secure Amulet",
-      "block.atmosphere.tub": "Tub",
-      "biome.atmosphere.dusty_luma": "Dusty Luma",
-      "block.atmosphere.frosted_shatter_stone": "Frosted Shatter Stone",
-      "block.atmosphere.borea_door": "Borea Door",
-      "entity.atmosphere.windcaller": "Windcaller",
-      "block.atmosphere.zorro_stairs": "Zorro Stairs",
-      "block.atmosphere.zorro_slab": "Zorro Slab",
-      "block.atmosphere.zorro_fence": "Zorro Fence",
-      "entity.atmosphere.rayven": "Rayven",
-      "block.atmosphere.horna_log": "Horna Log",
-      "advancements.abrakadabra.title": "Abrakadabra",
-      "block.atmosphere.horna_stairs": "Horna Stairs",
-      "block.atmosphere.zorro_button": "Zorro Button",
-      "item.atmosphere.fire_amulet": "Fire Amulet",
-      "block.atmosphere.witch_pool": "Witch Pool",
-      "entity.atmosphere.wind": "Wind",
-      "block.atmosphere.horna_wood": "Horna Wood",
-      "block.atmosphere.horna_leaves": "Horna Leaves",
-      "block.atmosphere.cobbled_shatter_stone": "Cobbled Shatter Stone",
-      "item.atmosphere.atmosphere_dimension": "Atmosphere Dimension Portal Igniter",
-      "item.atmosphere.croaker_spittle": "Croaker Spittle",
-      "block.atmosphere.flowering_zorro_leaves": "Flowering Zorro Leaves",
-      "block.atmosphere.borea_planks": "Borea Planks",
-      "block.atmosphere.borea_button": "Borea Button",
-      "block.atmosphere.horna_door": "Horna Door",
-      "block.atmosphere.raw_luminum_block": "Raw Luminum Block",
-      "subtitles.fire_burst": "Strong Attack bursted",
-      "biome.atmosphere.petal_paradise": "Petal Paradise",
-      "itemGroup.tabatmosphere": "Atmosphere",
-      "subtitles.death_whistle": "Death",
-      "block.atmosphere.luminescent_lode": "Luminescent Lode",
-      "block.atmosphere.zorro_trapdoor": "Zorro Trapdoor",
-      "item.atmosphere.fireburst_spawn_egg": "Fireburst Spawn Egg",
-      "block.atmosphere.borea_pressure_plate": "Borea Pressure Plate",
-      "item.atmosphere.windcaller_spawn_egg": "Windcaller Spawn Egg",
-      "block.atmosphere.gusty_grass": "Gusty Grass",
-      "item.atmosphere.scroll_on_a_stick": "Scroll On A Stick",
-      "block.atmosphere.zorro_log": "Zorro Log",
-      "block.atmosphere.horna_button": "Horna Button",
-      "entity.atmosphere.saint": "Saint",
-      "item.atmosphere.saint_spawn_egg": "Saint Spawn Egg",
-      "item.atmosphere.raw_luminum": "Raw Luminum",
-      "block.atmosphere.frosted_humus_soil": "Frosted Humus Soil",
-      "item.atmosphere.soft_amulet": "Soft Amulet",
-      "death.attack.fireburst": "%1$s got bursted away by a mythic power",
       "block.atmosphere.borea_wood": "Borea Wood",
       "block.atmosphere.borea_trapdoor": "Borea Trapdoor",
       "item.atmosphere.croaker_spawn_egg": "Croaker Spawn Egg",
       "item.atmosphere.luminum_ingot": "Luminum Ingot",
-      "block.atmosphere.cloud_fluff": "Cloud Fluff"
+      "block.atmosphere.cloud_fluff": "Cloud Fluff",
+      "block.atmosphere.tub": "Tub"
     }
   },
   "foldersRoot": {
@@ -2253,6 +2564,10 @@
       {
         "name": "Biomes",
         "children": [
+          {
+            "name": "StardustVally",
+            "children": []
+          },
           {
             "name": "HornaForest",
             "children": []
@@ -2269,7 +2584,12 @@
       },
       {
         "name": "Entitys",
-        "children": []
+        "children": [
+          {
+            "name": "LootTable",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Tags",

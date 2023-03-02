@@ -4,7 +4,14 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:VanillyaWall"
+      },
+      {
+        "value": "CUSTOM:VanillyaBrickWall"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],

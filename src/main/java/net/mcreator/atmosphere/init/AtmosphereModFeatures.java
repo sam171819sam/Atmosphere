@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.atmosphere.world.features.plants.HumusWeedFeature;
 import net.mcreator.atmosphere.world.features.ores.ShatterStoneFeature;
 import net.mcreator.atmosphere.world.features.ores.RawLuminumBlockFeature;
 import net.mcreator.atmosphere.world.features.ores.LuminumOreFeature;
@@ -33,4 +34,5 @@ public class AtmosphereModFeatures {
 	public static final RegistryObject<Feature<?>> BOREA_TREE_2 = REGISTRY.register("borea_tree_2", BoreaTree2Feature::feature);
 	public static final RegistryObject<Feature<?>> BOREA_TREE_3 = REGISTRY.register("borea_tree_3", BoreaTree3Feature::feature);
 	public static final RegistryObject<Feature<?>> LUMINESCENT_LODE = REGISTRY.register("luminescent_lode", LuminescentLodeFeature::feature);
+	public static final RegistryObject<Feature<?>> HUMUS_WEED = REGISTRY.register("humus_weed", HumusWeedFeature::feature);
 }
