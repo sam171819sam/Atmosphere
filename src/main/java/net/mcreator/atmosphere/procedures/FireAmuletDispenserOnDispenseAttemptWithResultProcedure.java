@@ -1,8 +1,15 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 
-import javax.annotation.Nullable;
+import net.mcreator.atmosphere.init.AtmosphereModEntities;
+import net.mcreator.atmosphere.entity.FireburstEntity;
 
 public class FireAmuletDispenserOnDispenseAttemptWithResultProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, ItemStack itemstack) {

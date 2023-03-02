@@ -31,7 +31,7 @@ import net.mcreator.atmosphere.AtmosphereMod;
 public class AtmosphereModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AtmosphereMod.MODID);
 	public static final RegistryObject<EntityType<BalloonFlyEntity>> BALLOON_FLY = register("balloon_fly",
-			EntityType.Builder.<BalloonFlyEntity>of(BalloonFlyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			EntityType.Builder.<BalloonFlyEntity>of(BalloonFlyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BalloonFlyEntity::new)
 
 					.sized(1.3f, 1.3f));
