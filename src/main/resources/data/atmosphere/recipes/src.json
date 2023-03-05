@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     },
     "2": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     },
     "3": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     },
     "4": {
       "item": "minecraft:netherite_chestplate"
     },
     "5": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     },
     "6": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     },
     "8": {
-      "item": "atmosphere:deleted_mod_element"
+      "item": "atmosphere:saint_rib"
     }
   },
   "result": {
-    "item": "atmosphere:deleted_mod_element_chestplate",
+    "item": "atmosphere:saint_a_chestplate",
     "count": 1
   }
 }

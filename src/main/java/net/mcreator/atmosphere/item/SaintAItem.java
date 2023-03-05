@@ -1,12 +1,21 @@
 
 package net.mcreator.atmosphere.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.resources.ResourceLocation;
 
 public abstract class SaintAItem extends ArmorItem {
-
 	public SaintAItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -52,7 +61,6 @@ public abstract class SaintAItem extends ArmorItem {
 	}
 
 	public static class Chestplate extends SaintAItem {
-
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -61,7 +69,5 @@ public abstract class SaintAItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "atmosphere:textures/models/armor/saint__layer_1.png";
 		}
-
 	}
-
 }

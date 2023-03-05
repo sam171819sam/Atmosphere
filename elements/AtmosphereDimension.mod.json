@@ -7,13 +7,16 @@
         "value": "CUSTOM:WavyMeadow"
       },
       {
-        "value": "CUSTOM:DustyLuma"
-      },
-      {
         "value": "CUSTOM:PetalParadise"
       },
       {
         "value": "CUSTOM:ZorroForest"
+      },
+      {
+        "value": "CUSTOM:HornaForest"
+      },
+      {
+        "value": "CUSTOM:StardustValley"
       }
     ],
     "worldGenType": "End like gen",

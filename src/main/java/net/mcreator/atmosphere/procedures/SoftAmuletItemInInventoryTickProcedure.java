@@ -1,8 +1,19 @@
 package net.mcreator.atmosphere.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
-import javax.annotation.Nullable;
+import net.mcreator.atmosphere.init.AtmosphereModItems;
 
 public class SoftAmuletItemInInventoryTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -26,8 +37,7 @@ public class SoftAmuletItemInInventoryTickProcedure {
 					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 							.getItem() == AtmosphereModItems.SOFT_AMULET.get()) {
 						if (world.isClientSide())
-							Minecraft.getInstance().gameRenderer
-									.displayItemActivation((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
+							Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(AtmosphereModItems.SOFT_AMULET.get()));
 						((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).shrink(1);
 						if (world instanceof ServerLevel _level)
 							_level.sendParticles(ParticleTypes.CLOUD, (entity.getX()), (entity.getY() + 0.5), (entity.getZ()), 90, 0.3, 0.3, 0.3,
@@ -35,8 +45,7 @@ public class SoftAmuletItemInInventoryTickProcedure {
 					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
 							.getItem() == AtmosphereModItems.SOFT_AMULET.get()) {
 						if (world.isClientSide())
-							Minecraft.getInstance().gameRenderer
-									.displayItemActivation((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY));
+							Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(AtmosphereModItems.SOFT_AMULET.get()));
 						((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).shrink(1);
 						if (world instanceof ServerLevel _level)
 							_level.sendParticles(ParticleTypes.CLOUD, (entity.getX()), (entity.getY() + 0.5), (entity.getZ()), 90, 0.3, 0.3, 0.3,

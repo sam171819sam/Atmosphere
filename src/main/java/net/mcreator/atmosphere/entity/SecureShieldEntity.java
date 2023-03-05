@@ -32,6 +32,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.atmosphere.procedures.SecureShieldOnEntityTickUpdateProcedure;
 import net.mcreator.atmosphere.init.AtmosphereModEntities;
 
 public class SecureShieldEntity extends PathfinderMob implements IAnimatable {
@@ -111,6 +112,12 @@ public class SecureShieldEntity extends PathfinderMob implements IAnimatable {
 		if (source.getMsgId().equals("witherSkull"))
 			return false;
 		return super.hurt(source, amount);
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		SecureShieldOnEntityTickUpdateProcedure.execute(this.level, this);
 	}
 
 	@Override

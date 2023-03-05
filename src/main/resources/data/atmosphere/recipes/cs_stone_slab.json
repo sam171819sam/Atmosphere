@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "atmosphere:cobbled_shatter_stone"
   },
-  "result": "atmosphere:deleted_mod_element"
+  "result": "atmosphere:cobbled_shatter_stone_slab"
 }

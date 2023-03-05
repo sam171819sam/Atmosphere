@@ -3,8 +3,7 @@
   "biomes": [
     "atmosphere:wavy_meadow",
     "atmosphere:petal_paradise",
-    "atmosphere:zorro_forest",
-    "atmosphere:dusty_luma"
+    "atmosphere:zorro_forest"
   ],
   "features": "atmosphere:humus_weed",
   "step": "vegetal_decoration"

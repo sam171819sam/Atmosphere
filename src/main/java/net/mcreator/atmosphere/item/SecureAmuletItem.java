@@ -14,7 +14,7 @@ import net.mcreator.atmosphere.init.AtmosphereModTabs;
 
 public class SecureAmuletItem extends Item {
 	public SecureAmuletItem() {
-		super(new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE).stacksTo(1).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(AtmosphereModTabs.TAB_ATMOSPHERE).durability(128).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class SecureAmuletItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		SecureAmuletRightclickedProcedure.execute();
+		SecureAmuletRightclickedProcedure.execute(world, entity, itemstack);
 		return ar;
 	}
 }

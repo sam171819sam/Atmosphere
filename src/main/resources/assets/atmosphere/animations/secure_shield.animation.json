@@ -5,13 +5,26 @@
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
-				"bone": {
+				"whole": {
 					"rotation": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"4.0": {
 							"vector": [0, -360, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 2, 0],
+							"easing": "easeInSine"
+						},
+						"4.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutSine"
 						}
 					}
 				}

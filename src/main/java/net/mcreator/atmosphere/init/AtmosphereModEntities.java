@@ -68,7 +68,7 @@ public class AtmosphereModEntities {
 					.sized(0.1f, 0.1f));
 	public static final RegistryObject<EntityType<SecureShieldEntity>> SECURE_SHIELD = register("secure_shield",
 			EntityType.Builder.<SecureShieldEntity>of(SecureShieldEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SecureShieldEntity::new).fireImmune().sized(0.1f, 0.1f));
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SecureShieldEntity::new).fireImmune().sized(0.1f, 2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
